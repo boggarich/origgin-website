@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
+	<title>circular-gradient</title>
+	<defs>
+		<image  width="1000" height="1000" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAPoAQMAAAB3bUanAAAAAXNSR0IB2cksfwAAAANQTFRFAAAAp3o92gAAAAF0Uk5TAEDm2GYAAACRSURBVHic7cExAQAAAMKg9U9tCj+gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC+Buw/AAH4MZchAAAAAElFTkSuQmCC"/>
+		<linearGradient id="g1" x1="682" y1="1000" x2="318" y2="0" gradientUnits="userSpaceOnUse">
+			<stop offset="0" stop-color="#f74c80"/>
+			<stop offset=".3" stop-color="#f14e82"/>
+			<stop offset="1" stop-color="#209fd4"/>
+		</linearGradient>
+	</defs>
+	<style>
+		.s0 { fill: url(#g1) } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+	<path id="Shape 1" class="s0" d="m500 1000c-276.5 0-500-223.5-500-500 0-276.5 223.5-500 500-500 276.5 0 500 223.5 500 500 0 276.5-223.5 500-500 500z"/>
+</svg>

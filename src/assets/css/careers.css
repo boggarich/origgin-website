@@ -1,0 +1,321 @@
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div .img-container-shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-content.careers section .sub-header.main {
+  font-size: 18px;
+  color: #FD3B5E;
+}
+.main-content.careers section.section-7 .layout-width {
+  padding: 7rem 0 20rem;
+}
+@media screen and (min-width: 991px) {
+  .main-content.careers section.section-7 .layout-width p {
+    width: 80%;
+  }
+}
+.main-content.careers section.section-6 {
+  background: #F7F9FA;
+}
+.main-content.careers section.section-6 .layout-width {
+  padding-top: 4rem;
+  padding-bottom: 5.5rem;
+}
+.main-content.careers section.section-6 .layout-width > .grid-2 .btn-link-pink {
+  font-size: 18px !important;
+}
+.main-content.careers section.section-6 .layout-width > .grid-2 p {
+  color: rgba(0, 0, 0, 0.7) !important;
+}
+.main-content.careers section.section-6 .layout-width > .grid-2:nth-child(2) {
+  grid-template-columns: 4fr 1fr;
+}
+.main-content.careers section.section-6 .layout-width > .grid-2:first-child {
+  margin-bottom: 5rem;
+}
+.main-content.careers section.section-6 .layout-width > .grid-2:first-child .btn-pill {
+  margin-top: 1.5rem;
+  font-size: 12px;
+}
+.main-content.careers section.section-5 {
+  padding-bottom: 1rem;
+  overflow: inherit;
+  background-color: white;
+}
+.main-content.careers section.section-5::before {
+  background-color: #F7F9FA;
+  transform: skewY(356deg);
+  transform-origin: 0% 100%;
+}
+.main-content.careers section.section-5 .layout-width {
+  padding: 8rem 0rem 10rem;
+}
+.main-content.careers section.section-5 .layout-width p {
+  color: #000 !important;
+  width: 85%;
+}
+.main-content.careers section.section-5 .layout-width .spacing {
+  margin-bottom: 5rem;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(4) .grid-2-row {
+  height: fit-content;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(4) .grid-2-row .header-md {
+  margin-bottom: 0px;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(4) .grid-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(4) .img-container-shadow {
+  height: 400px;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(3) .grid-2-row {
+  height: fit-content;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(3) .img-container-shadow {
+  height: 330px;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(2) {
+  margin-bottom: 5rem !important;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(2) .grid-2-row {
+  height: fit-content;
+  margin-top: 0rem;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(2) .img-container-shadow {
+  height: 255px;
+  margin-top: 0rem;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(1) {
+  margin-bottom: 6rem;
+}
+.main-content.careers section.section-5 .layout-width .spacing:nth-child(1) .grid-2 {
+  grid-template-columns: 3fr 1fr;
+}
+@media screen and (min-width: 991px) {
+  .main-content.careers section.section-5 .layout-width .spacing:nth-child(1) .grid-2 p {
+    width: 88%;
+  }
+}
+.main-content.careers section.section-5 .layout-width .header-md {
+  font-size: 20px;
+  width: 78%;
+  line-height: 34px;
+}
+.main-content.careers section.section-4 {
+  padding-bottom: 1rem;
+  overflow: inherit;
+}
+.main-content.careers section.section-4::before {
+  background-color: #F7F9FA;
+  transform: skewY(356deg);
+  transform-origin: 0% 100%;
+}
+.main-content.careers section.section-4 .layout-width {
+  padding: 14rem 0rem 10rem;
+}
+.main-content.careers section.section-4 .layout-width p {
+  color: #000 !important;
+  width: 85%;
+}
+.main-content.careers section.section-4 .layout-width .spacing {
+  margin-bottom: 5rem;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(5) .grid-2-row {
+  height: fit-content;
+  row-gap: 0px;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(5) .grid-2-row .header-md {
+  margin-bottom: 0px;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(5) .grid-2 {
+  grid-template-columns: 1fr 3fr;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(5) .img-container-shadow {
+  height: 360px;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(4) .grid-2 {
+  grid-template-columns: 3fr 1fr;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(4) .img-container-shadow {
+  height: 400px;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(3) .grid-2-row {
+  height: fit-content;
+  margin-top: 5rem;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(3) .img-container-shadow {
+  height: 330px;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(2) {
+  margin-bottom: 32px !important;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(2) .grid-2-row {
+  height: fit-content;
+  margin-top: 6rem;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(2) .img-container-shadow {
+  height: 415px;
+  margin-top: 2rem;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
+.main-content.careers section.section-4 .layout-width .spacing:nth-child(1) .grid-2 {
+  grid-template-columns: 3fr 1fr;
+}
+@media screen and (min-width: 991px) {
+  .main-content.careers section.section-4 .layout-width .spacing:nth-child(1) .grid-2 p {
+    width: 65%;
+  }
+}
+.main-content.careers section.section-4 .layout-width .header-md {
+  font-size: 20px;
+  width: 78%;
+  line-height: 34px;
+}
+.main-content.careers section.section-3::before {
+  background-color: #fff;
+  transform: skewY(356deg);
+  transform-origin: 0px 0px;
+}
+.main-content.careers section.section-3 .layout-width {
+  padding: 5rem 0 13rem;
+}
+.main-content.careers section.section-3 .layout-width > .grid-2 p {
+  color: #000 !important;
+}
+.main-content.careers section.section-3 .layout-width > .grid-2:first-child {
+  grid-template-columns: 3fr 1fr;
+}
+.main-content.careers section.section-3 .layout-width > .grid-2:first-child .header-xxl {
+  width: 80%;
+}
+.main-content.careers section.section-2 {
+  padding-bottom: 10rem;
+}
+.main-content.careers section.section-2::before {
+  background-color: #F7F9FA;
+  transform: skewY(351deg);
+  transform-origin: 0px 0px;
+}
+.main-content.careers section.section-2 .layout-width {
+  padding: 5rem 0rem;
+}
+.main-content.careers section.section-2 .layout-width p {
+  color: #000 !important;
+  width: 85%;
+}
+.main-content.careers section.section-2 .layout-width .spacing {
+  margin-bottom: 5rem;
+}
+.main-content.careers section.section-2 .layout-width .spacing:nth-child(5) .img-container-shadow {
+  height: 265px;
+}
+.main-content.careers section.section-2 .layout-width .spacing:nth-child(4) .img-container-shadow {
+  height: 400px;
+}
+.main-content.careers section.section-2 .layout-width .spacing:nth-child(3) .img-container-shadow {
+  height: 265px;
+}
+.main-content.careers section.section-2 .layout-width .spacing:nth-child(2) .img-container-shadow {
+  height: 265px;
+  margin-top: 2rem;
+}
+.main-content.careers section.section-2 .layout-width .header-md {
+  font-size: 22px;
+  width: 78%;
+  line-height: 34px;
+}
+.main-content.careers section.section-1 .layout-width .header-md {
+  color: #000;
+  font-size: 22px;
+}
+.main-content.careers section.section-1 .layout-width p {
+  color: #000 !important;
+}
+.main-content.careers section.section-1 .layout-width .img-container-shadow {
+  margin-top: 3rem;
+}
+.main-content.careers section.section-1 .layout-width .spacing {
+  margin-bottom: 6rem;
+}
+.main-content.careers section.section-1 .layout-width .spacing:nth-child(2) p {
+  margin-bottom: 1rem !important;
+}
+.main-content.careers section.page-hero {
+  width: 100%;
+  height: fit-content;
+  position: relative;
+}
+.main-content.careers section.page-hero::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #f7f9fa;
+  transform: skewY(-18deg);
+  transform-origin: 0px 0px;
+  width: 100%;
+  height: 86%;
+}
+.main-content.careers section.page-hero > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+.main-content.careers section.page-hero > div > div:first-child {
+  flex-grow: 1;
+  margin-top: 150px;
+  z-index: 1;
+  padding-bottom: 32rem;
+}
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div {
+  position: relative;
+}
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div .btn-pill {
+  font-size: 14px !important;
+}
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div .img-container-shadow {
+  width: 640px;
+  height: 475px;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 8px;
+}
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div .page-hero-header {
+  color: #000 !important;
+  margin-bottom: 2rem;
+  text-transform: initial;
+  font-weight: 700;
+  line-height: 76px;
+  font-size: 54px;
+  padding-right: 1rem;
+}
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div .sub-header {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  width: 82%;
+}
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div .sub-header:nth-child(1) {
+  color: #6F4CF5;
+  font-weight: 600;
+  font-size: 22px;
+}
+.main-content.careers section.page-hero > div > div:first-child .grid-2 > div .sub-header:nth-child(3) {
+  margin-bottom: 2.5rem;
+}
+.main-content.careers section.page-hero > div .grid-2.rotated {
+  grid-template-rows: 216px;
+  transform: rotate(-18deg) translate(19%, -7%);
+  transform-origin: 0px 0px;
+  grid-template-columns: 1fr 2fr;
+}
+.main-content.careers section.page-hero > div .grid-2.rotated > div {
+  margin-bottom: 0px !important;
+}
+.main-content.careers section.page-hero > div .grid-2.rotated > div:last-child {
+  background-color: #61206a;
+}

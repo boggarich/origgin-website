@@ -1,0 +1,275 @@
+.main-content {
+
+    .page-container {
+
+        &.a-100-billion-dollar-company {
+
+            section {
+
+                @media screen and (max-width: 900px) {
+                    height: unset !important;
+                }
+
+                &.section-5 {
+                    background: transparent;
+                    text-align: center;
+                    height: 491px;
+                    margin-bottom: 3rem;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 23.44px;
+                        color: #000000 !important;
+                    }
+
+                    .sub-header {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 28px;
+                        color: #000000;
+                        margin-top: 85px;
+                        margin-bottom: 46px;
+                    }
+
+                }
+
+                &.section-4 {
+                    background: rgba(238, 76, 103, 0.1);
+                    text-align: center;
+                    height: 491px;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 23.44px;
+                        color: #000000 !important;
+
+                        @media screen and (max-width: 900px) {
+                            margin-bottom: 4rem !important;
+                        }
+                    }
+
+                    .sub-header {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 28px;
+                        color: #000000;
+                        margin-bottom: 60px;
+                    }
+
+                    .header-lg {
+                        color: #EE4C67;
+                        line-height: 38px;
+                        font-weight: 600;
+                        padding-top: 74px;
+                        margin-bottom: 62px;
+                    }
+
+                }
+
+                &.section-3 {
+                    background: #fff;
+                    text-align: center;
+                    height: 491px;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 23.44px;
+                        color: #000000 !important;
+
+                        @media screen and (max-width: 900px) {
+                            margin-bottom: 4rem !important;
+                        }
+
+                    }
+
+                    .sub-header {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 23px;
+                        color: #000000;
+                        margin-bottom: 51px;
+                    }
+
+                    .header-lg {
+                        color: #000;
+                        line-height: 28px;
+                        font-weight: 600;
+                        font-size: 22px;
+                        padding-top: 92px;
+                        margin-bottom: 20px;
+                    }
+
+                }
+
+                &.section-2 {
+                    background: rgba(55, 159, 255, 0.1);
+                    height: 491px;
+                    box-sizing: border-box;
+
+                    .sub-header {
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 38px;
+                        color: #EE4C67 !important;
+                        padding-top: 109px;
+                    }
+    
+                    .grid-3 {
+            
+                        grid-template-columns: repeat(3, 1fr);
+                        display: grid;
+                        margin-top: 60px;
+                
+                        > div {
+                
+                            .header-md {
+                                margin-top: 1rem;
+                                padding: 0 4rem;
+                                text-align: center;
+                                line-height: 28px;
+                                color: #000 !important;
+                            }
+                
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            align-items: center;
+                
+                            p {
+                                font-size: 20px;
+                                color: #000 !important;
+                                line-height: 23px;
+                                text-align: center;
+                                margin-top: 1.25rem;
+
+                                @media screen and (max-width: 900px) {
+                                    margin-bottom: 4rem !important;
+                                }
+
+                            }
+                
+                        }
+                
+                    }
+
+                }
+
+                &.section-1 {
+
+                    .grid-2 {
+                        column-gap: 0px;
+                        grid-auto-rows: 491px;
+
+                        @media screen and (max-width: 900px) {
+                            display: flex !important;
+                        }
+
+                        > div {
+                            margin-bottom: 0px;
+                            height: 490px !important;
+
+                            &:last-child {
+                                background-image: url("../img/pexels-kseniya-buraya-11882035.jpg");
+                                background-repeat: no-repeat;
+                                background-size: cover;
+                                background-position: center;
+                            }
+
+                            &:first-child {
+                                background-color: white;
+                                align-items: center;
+                                display: flex;
+                                flex-direction: column;
+
+                                @media screen and (max-width: 900px) {
+                                    align-items: center;
+                                    justify-content: center;
+                                }
+
+                                p {
+                                    font-weight: 400;
+                                    font-size: 22px;
+                                    line-height: 28px;
+                                    color: #000 !important;
+                                    font-style: normal;
+                                    padding: 0 7rem 0 12rem;
+
+                                    @media screen and (max-width: 900px) {
+                                        padding: 0 16px;
+                                    }
+
+                                }
+
+                                .header-lg {
+                                    font-size: 30px;
+                                    line-height: 37.5px;
+                                    margin-top: 46px;
+                                    margin-bottom: 46px;
+                                    color: #000000;
+                                    padding-left: 6.5rem;
+
+                                    @media screen and (max-width: 900px) {
+                                        padding: 0 0px;
+                                    }
+
+                                }
+
+                            }
+                        }
+
+                    }
+
+                }
+
+                &.page-hero {
+
+                height: 330px; 
+                background: #EE4C67;
+                text-align: center;
+                // background: url("../img/pexels-kseniya-buraya-11882035.jpg");
+                // background-repeat: no-repeat;
+                // background-size: cover;
+                // background-position: center;
+
+                // &::before {
+                //     content: "";
+                //     background-color: rgba(0, 0, 0, 0.5);
+                //     top: 0;
+                //     left: 0;
+                //     height: 100%;
+                //     width: 100%;
+                //     position: absolute;
+                // }
+
+                .sub-header {
+                        color: #fff;
+                        line-height: 42.19px;
+                        font-weight: 400;
+                        font-size: 34px !important;
+
+                        @media screen and (max-width: 900px) {
+                            font-size: 20px !important;
+                        }
+                }
+
+                .page-hero-header {
+                        color: #fff;
+                        padding-top: 58px;
+                        margin-bottom: 58px;
+                        line-height: 56.25px;
+                        font-size: 46px;
+                        font-weight: 500;
+                }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

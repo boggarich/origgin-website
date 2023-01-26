@@ -1,0 +1,180 @@
+.main-content {
+    &.tech-education {
+
+        section {
+
+            .btn-link-primary {
+                color: #FD3B5E !important;
+            }
+
+            .sub-header {
+
+                &.main {
+                    color: #FD3B5E;
+                }
+            }
+
+            &.section-2 {
+                background-color: #F7F9FA;
+                padding-top: 4rem;
+                padding-bottom: 5.5rem;
+
+                .layout-width {
+
+                    .grid-2 {
+                        
+                        &:first-child {
+                            > div {
+                                &:first-child {
+                                    p {
+                                        width: 86%;
+                                    }
+                                }
+                            }
+                        }
+                       
+                    }
+    
+                }
+
+                
+                .btn-link-primary {
+                    font-size: 18px !important;
+                }
+
+                .btn-pill {
+                    background-color: #FD3B5E !important;
+                    border-color: #FD3B5E !important;
+                }
+
+            }
+
+            &.section-1 {
+                margin-top: 12rem;
+
+                .sub-section {
+                    margin-bottom: 10rem;
+
+                    .img-container {
+                        background-size: contain;
+                        background-repeat: no-repeat;
+                    }
+
+                    &:nth-child(8) {
+                        .img-container {
+                            background-image: url("../img/sub-section-8-img.png");
+                        }
+                    }
+
+                    &:nth-child(7) {
+                        .img-container {
+                            background-image: url("../img/sub-section-7-img.png");
+                        }
+                    }
+
+                    &:nth-child(6) {
+                        .img-container {
+                            background-image: url("../img/sub-section-6-img.png");
+                        }
+                    }
+
+                    &:nth-child(5) {
+                        .img-container {
+                            background-image: url("../img/sub-section-5-img.png");
+                        }
+                    }
+
+                    &:nth-child(4) {
+                        .img-container {
+                            background-image: url("../img/sub-section-4-img.png");
+                        }
+                    }
+
+                    &:nth-child(3) {
+                        .img-container {
+                            background-image: url("../img/sub-section-3-img.png");
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        .img-container {
+                            background-image: url("../img/sub-section-2-img.png");
+                        }
+                    }
+
+                    &:first-child {
+                        .img-container {
+                            background-image: url("../img/sub-section-1-img.png");
+                        }
+                    }
+                }
+
+            }
+
+            &.page-hero {
+                padding-top: 2.725rem;
+
+                .header-xxl {
+                    font-size: 38px;
+                }
+
+                .page-hero-bg {
+                    height: 300px;
+                    position: relative;
+                    z-index: 1;
+                    margin-top: -19rem;
+                    transform: matrix(0.98, -0.17, 0.2, 0.98, 0, 0);
+                }
+
+                .layout-width {
+                    position: relative;
+                    z-index: 2;
+
+                    .grid-2 {
+                        img {
+                            object-fit: cover;
+                            width: 445px;
+                            height: 100%;
+                            border-radius: 20px;
+                        }
+
+                        grid-template-columns: 1fr 1fr;
+                        > div {
+
+                            &:last-child {
+                                padding-left: 3.5rem;
+
+                                .page-hero-img {
+                                    height: 100%;
+                                    width: 100%;
+                                    border-radius: 20px;
+                                    background-image: url("../img/tech-education-page-hero-img.png");
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                }
+                            }
+
+                            &:first-child {
+                                padding-top: 1.5rem;
+                                padding-bottom: 1rem;
+
+                                .sub-header {
+                                    width: 92%;
+                                }
+                            }
+                        }
+                    }
+
+                    .img-container-shadow {
+                        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+                        box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.15);
+                        border-radius: 20px;
+                    }
+
+                }
+                
+            }
+        }
+        
+    }
+}

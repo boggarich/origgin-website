@@ -1,0 +1,154 @@
+.main-content .header-wrapper {
+  background: #ee4c67;
+  border-bottom: 1px solid #CCC;
+  line-height: 66px;
+  height: 66px;
+  padding: 0 50px;
+  position: relative;
+}
+.main-content .header-wrapper img {
+  width: 141px;
+  position: relative;
+  margin-top: -7rem;
+}
+@media screen and (max-width: 480px) {
+  .main-content .header-wrapper img {
+    width: 95px;
+    margin-left: -3rem;
+  }
+}
+.main-content.auth {
+  margin-top: 0px;
+  background-color: #F6F6F6;
+}
+.main-content.auth .logo-container {
+  position: relative;
+}
+.main-content.auth .logo-container h4 {
+  font-size: 14px;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  text-align: center;
+}
+.main-content.auth .logo-container h4:last-child {
+  margin-bottom: 32px;
+  color: rgba(0, 0, 0, 0.7) !important;
+  font-size: 20px;
+}
+.main-content.auth .logo-container h4:first-child {
+  font-size: 36px;
+  font-weight: 700;
+  color: #000;
+  white-space: nowrap;
+  margin-bottom: 32px;
+}
+@media screen and (max-width: 480px) {
+  .main-content.auth .logo-container h4:first-child {
+    white-space: normal;
+  }
+}
+.main-content.auth .layout-width {
+  display: flex;
+  align-items: center;
+  padding-top: 3.5rem;
+  max-width: 1080px;
+  flex-direction: column;
+}
+.main-content.auth .layout-width .footer-wrapper {
+  padding-left: 20px !important;
+}
+.main-content.auth .layout-width .footer-wrapper ul {
+  list-style: none;
+  display: flex;
+  padding-left: 0px !important;
+  padding-top: 24px;
+  margin-bottom: 32px;
+}
+.main-content.auth .layout-width .footer-wrapper ul li {
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  color: #697386;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.main-content.auth .layout-width .footer-wrapper ul li:first-child {
+  margin-left: 0px !important;
+}
+.main-content.auth .layout-width .footer-wrapper ul li a {
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  color: #697386;
+  font-size: 14px;
+}
+.main-content.auth .layout-width .card-shadow-container {
+  width: 540px;
+}
+@media screen and (max-width: 480px) {
+  .main-content.auth .layout-width .card-shadow-container {
+    width: 100%;
+  }
+}
+.main-content.auth .layout-width .card-shadow-container p {
+  font-size: 14px;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  text-align: center;
+}
+.main-content.auth .layout-width .card-shadow-container p a {
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  color: #379fff;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow {
+  width: 100%;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form a {
+  color: #ee4c67;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form + a {
+  font-size: 14px;
+  display: table;
+  margin: 0 auto;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  color: #379fff;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form button {
+  line-height: 28px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  background-color: #ee4c67;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, #ee4c67 0px 0px 0px 1px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+  border-color: #ee4c67;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form button span {
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  font-size: 16px;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form .form-check {
+  padding-bottom: 32px;
+  margin-bottom: 0px;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form .form-check .form-check-input:focus {
+  border-color: #ee4c67;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(235, 103, 103, 0.25);
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form .form-check .form-check-input:checked {
+  background-color: #ee4c67;
+  border-color: #ee4c67 !important;
+  box-shadow: 0 0 0 0.25rem rgba(235, 103, 103, 0.25);
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form .form-check label {
+  margin-bottom: 0px;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form .form-group {
+  margin-bottom: 32px;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow form .form-group input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+.main-content.auth .layout-width .card-shadow-container .card-shadow h4 {
+  font-weight: 700;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  margin-bottom: 20px;
+}

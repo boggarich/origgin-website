@@ -1,0 +1,258 @@
+.modal.team-modal .modal-dialog .modal-header {
+  border-bottom: 0px;
+}
+@media screen and (min-width: 481px) {
+  .modal.team-modal .modal-dialog .modal-header {
+    display: none;
+  }
+}
+.modal.team-modal .modal-dialog .modal-header .btn-close {
+  opacity: 1;
+  z-index: 3;
+  background: transparent url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23FD3B5E%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e") center/1em auto no-repeat;
+}
+
+.modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div img {
+  object-fit: cover;
+  margin-bottom: 1rem;
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+  .modal.team-modal .modal-dialog {
+    max-width: 855px;
+  }
+  .modal.team-modal .modal-dialog .modal-header {
+    border-bottom: 0;
+  }
+  .modal.team-modal .modal-dialog .modal-header button {
+    display: none;
+  }
+  .modal.team-modal .modal-dialog .modal-content {
+    border-radius: 0px;
+    padding: 2.5rem 0.75rem 8rem 2rem;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container {
+    display: flex;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container p {
+    text-align: center;
+    line-height: 23px;
+    font-size: 18px;
+    margin-top: 2.5rem;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 24px;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div h6 {
+    color: #000;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div h3 {
+    margin-bottom: 0 !important;
+    color: #000;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div .profile-img {
+    object-fit: cover;
+    margin-bottom: 1rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #e9e9e9;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div .profile-img.lawyer {
+    background-image: url("../img/PaulMayerAboagye.jpeg");
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div .profile-img.cfo {
+    background-image: url("../img/Mike.jpg");
+    background-position: center 1rem;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div .profile-img.coo {
+    background-image: url("../img/deloris.jpeg");
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container > div .profile-img.ceo {
+    background-image: url("../img/WhatsApp Image 2022-08-05 at 11.18.20 AM.jpeg");
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container .sub-header {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+  }
+  .modal.team-modal .modal-dialog .modal-content .modal-content-container .profile-img-container .header-lg {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+.main-content {
+  margin-top: 98px;
+}
+.main-content .page-container .profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-content .page-container .profile-container .profile-img-container {
+  width: 310px;
+  height: 310px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-bottom: 2.5rem;
+  background-color: #e0e0e0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.main-content .page-container .profile-container .profile-img-container.coo {
+  background-image: url("../img/deloris.jpeg");
+}
+.main-content .page-container .profile-container .profile-img-container.cfo {
+  background-image: url("../img/Mike.jpg");
+  background-color: #e9e9e9;
+  background-position: -12px 20px;
+}
+.main-content .page-container .profile-container .profile-img-container.paul-mayer-aboagye {
+  background-image: url("../img/PaulMayerAboagye.jpeg");
+}
+.main-content .page-container .profile-container .profile-img-container.ceo, .main-content .page-container .profile-container .profile-img-container.board-chair, .main-content .page-container .profile-container .profile-img-container.worlanyo-forster {
+  background-image: url("../img/WhatsApp Image 2022-08-05 at 11.18.20 AM.jpeg");
+}
+.main-content .page-container .profile-container .sub-header {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.main-content .page-container .profile-container .header-lg {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #000;
+}
+.main-content .page-container.team .section-1 {
+  background: rgba(55, 159, 255, 0.1);
+  padding: 5rem 0 4rem;
+}
+.main-content .page-container.team .section-1 .layout-width > .grid-3 ~ div .grid-2 {
+  column-gap: 80px;
+}
+.main-content .page-container.team .section-1 .layout-width .header-xl {
+  margin-bottom: 6rem;
+}
+.main-content .page-container.team .section-1 .layout-width .grid-3 {
+  row-gap: 3rem;
+}
+.main-content .page-container.team .section-2 .layout-width {
+  padding: 8rem 0 4rem;
+}
+.main-content .page-container.team .section-2 .layout-width .header-xl {
+  font-weight: 500;
+  font-size: 38px;
+  line-height: 47px;
+  margin-bottom: 6rem;
+}
+.main-content .page-container.team .section-3 {
+  margin-top: 10rem;
+  margin-bottom: 16rem;
+}
+.main-content .page-container.team .section-3 .sub-header {
+  color: #EE4C67 !important;
+  font-size: 30px;
+  font-weight: 600;
+}
+.main-content .page-container.team .section-3 .grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  margin-top: 3rem;
+}
+@media screen and (max-width: 480px) {
+  .main-content .page-container.team .section-3 .grid-4 > a {
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 900px) {
+  .main-content .page-container.team .section-3 .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main-content .page-container.team .section-3 .grid-4 > a:first-child, .main-content .page-container.team .section-3 .grid-4 > a:nth-child(2) {
+    margin-bottom: 3rem;
+  }
+}
+.main-content .page-container.team .section-3 .grid-4 a {
+  color: #000 !important;
+  display: flex;
+  flex-direction: column;
+  white-space: normal;
+  transition: transform 250ms ease-out;
+}
+.main-content .page-container.team .section-3 .grid-4 a svg {
+  transition: transform 250ms ease-in-out;
+}
+.main-content .page-container.team .section-3 .grid-4 a:hover {
+  background: white;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  padding: 2rem 1.5rem;
+  border-radius: 6px;
+}
+.main-content .page-container.team .section-3 .grid-4 a:hover svg {
+  transform: translateY(8px);
+}
+.main-content .page-container.team .section-3 .grid-4 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main-content .page-container.team .section-3 .grid-4 div .header-md {
+  margin-top: 1rem;
+}
+.main-content .page-container.team .section-3 .grid-4 div p {
+  padding: 0 1rem;
+  font-size: 20px;
+  color: #000 !important;
+  line-height: 23.44px;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+.main-content .page-container.team .page-hero {
+  height: 169px;
+  background-color: #EE4C67;
+}
+.main-content .page-container.team .page-hero .page-hero-header {
+  font-size: 64px;
+  text-transform: none;
+  font-weight: 500;
+  text-align: center;
+  font-size: 38px;
+  line-height: 47px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.main-content .page-container.team .page-hero .layout-width {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.main-content .page-container.team .page-hero .layout-width > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,193 @@
+.main-content.solutions .section-6 {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  background-color: #F7F9FA;
+  margin-bottom: 6rem;
+}
+.main-content.solutions .section-6 .grid-2 > .grid-2 > div:first-child {
+  z-index: 2;
+  position: relative;
+}
+.main-content.solutions .section-6 .grid-2 > .grid-2 > div:first-child::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 23px;
+  background-image: url("../img/check-circle.svg");
+  height: 20px;
+  width: 20px;
+  z-index: 2;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main-content.solutions .section-6 .grid-2 > .grid-2 > div:first-child img {
+  position: relative;
+  display: block;
+}
+.main-content.solutions .section-6 .grid-2 > .grid-2 .btn {
+  font-size: 18px !important;
+}
+.main-content.solutions .section-6 .header-lg + p {
+  width: 75%;
+}
+.main-content.solutions .section-6 .btn-link-primary {
+  color: #6F4CF5 !important;
+}
+.main-content.solutions .section-6 .btn-pill {
+  background-color: #6F4CF5 !important;
+  border-color: #6F4CF5 !important;
+}
+.main-content.solutions .section-5 {
+  background-color: white;
+}
+.main-content.solutions .section-5 .layout-width {
+  padding-top: 4.5rem;
+  padding-bottom: 5.625rem;
+}
+.main-content.solutions .section-5 .layout-width .grid-2 > div:last-child .img-container-shadow {
+  width: 523px;
+  height: 557px;
+  position: absolute;
+  margin-top: 32px;
+}
+.main-content.solutions .section-5 .layout-width .grid-2 > div:first-child .sub-header.main {
+  margin-bottom: 20px;
+  color: #FD3B5E;
+}
+.main-content.solutions .section-5 .layout-width .grid-2 > div:first-child .header-xxl {
+  width: 83%;
+  margin-bottom: 22px;
+}
+.main-content.solutions .section-5 .layout-width .grid-2 > div:first-child .grid-2-row {
+  margin-top: 32px;
+}
+.main-content.solutions .section-5 .layout-width .grid-2 > div:first-child .grid-2-row .sub-header:not(.main) {
+  margin-bottom: 0px;
+}
+.main-content.solutions .section-4 {
+  background-color: #F7F9FA;
+  overflow: hidden;
+}
+.main-content.solutions .section-4 .layout-width {
+  padding-top: 3rem;
+}
+.main-content.solutions .section-4 .layout-width .btn-pill {
+  background-color: #FD3B5E !important;
+  border-color: #FD3B5E !important;
+}
+.main-content.solutions .section-4 .layout-width > .grid-2 {
+  grid-template-columns: 3fr 1fr;
+}
+.main-content.solutions .section-4 .layout-width > .grid-2 .grid-3-row p {
+  margin-bottom: 1rem !important;
+}
+.main-content.solutions .section-4 .layout-width > .grid-2 > div:last-child {
+  display: flex;
+  align-items: flex-end;
+}
+@media screen and (max-width: 991px) {
+  .main-content.solutions .section-4 .layout-width > .grid-2 > div:last-child {
+    display: none;
+  }
+}
+@media screen and (min-width: 991px) {
+  .main-content.solutions .section-4 .layout-width > .grid-2 > div:last-child {
+    justify-content: flex-end;
+  }
+}
+.main-content.solutions .section-4 .layout-width > .grid-2 > div:last-child .rectangular-stack > div:last-child {
+  height: 300px;
+  width: 190px;
+  background-color: #6F4CF5;
+  grid-area: 1/1/2;
+  box-shadow: -5px -8px 25px rgba(0, 0, 0, 0.1);
+  margin-left: 24px;
+  margin-top: 20px;
+}
+.main-content.solutions .section-4 .layout-width > .grid-2 > div:last-child .rectangular-stack > div:first-child {
+  background-color: #FFFFFF;
+  grid-area: 1/1;
+  width: 190px;
+  height: 320px;
+  box-shadow: -5px -8px 25px rgba(0, 0, 0, 0.1);
+}
+.main-content.solutions .section-4 .layout-width > .grid-2 > div:first-child {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+}
+.main-content.solutions .section-3 {
+  background-color: white;
+}
+.main-content.solutions .section-3 .layout-width {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+@media screen and (max-width: 991px) {
+  .main-content.solutions .section-3 .layout-width .grid-2 > div:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .main-content.solutions .section-3 .layout-width .grid-2 > div:last-child img {
+    position: relative;
+  }
+}
+@media screen and (min-width: 991px) {
+  .main-content.solutions .section-3 .layout-width .grid-2 > div:last-child img {
+    margin-top: -13%;
+    position: absolute;
+  }
+}
+.main-content.solutions .section-3 .layout-width .sub-header.main {
+  color: #6F4CF5;
+}
+.main-content.solutions .section-3 .layout-width .grid-3-row.has-icon {
+  margin-top: 4rem;
+}
+@media screen and (min-width: 991px) {
+  .main-content.solutions .section-3 .layout-width .grid-3-row.has-icon p {
+    width: 75%;
+  }
+  .main-content.solutions .section-3 .layout-width .grid-3-row.has-icon .sub-header {
+    width: 68%;
+  }
+}
+.main-content.solutions .section-2 {
+  background-color: #F7F9FA;
+}
+.main-content.solutions .section-2 .layout-width {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.main-content.solutions .section-1 {
+  background-color: white;
+}
+.main-content.solutions .section-1 .layout-width {
+  padding-top: 20rem;
+  padding-bottom: 8rem;
+}
+@media screen and (max-width: 991px) {
+  .main-content.solutions .section-1 .layout-width {
+    padding-top: 7rem;
+  }
+}
+.main-content.solutions .section-1 .layout-width .grid-4 {
+  column-gap: 32px;
+}
+.main-content.solutions .page-hero .layout-width {
+  padding-top: 4rem;
+  position: relative;
+  z-index: 2;
+}
+.main-content.solutions .page-hero .layout-width .btn-pill {
+  background-color: #9966FF !important;
+  border-color: #9966FF !important;
+}
+.main-content.solutions .page-hero .layout-width .btn-link-primary {
+  color: #9966FF !important;
+}
+.main-content.solutions .page-hero .layout-width .page-hero-header {
+  font-size: 46px;
+  width: 81%;
+  line-height: 60.47px;
+}

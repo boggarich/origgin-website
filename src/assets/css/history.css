@@ -1,0 +1,412 @@
+.main-content.history + footer .footer-container {
+  padding-top: 0 !important;
+}
+.main-content.history + footer .footer-container .layout-width {
+  padding-top: 0 !important;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section .page-overlay {
+    display: flex;
+    align-items: center;
+  }
+}
+.main-content.history .page-container.history section.section-9 {
+  height: 982px;
+  background-image: url("../img/muslim.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section.section-9 {
+    margin-bottom: 5rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  .main-content.history .page-container.history section.section-9 .layout-width > div {
+    padding-top: 398px;
+    padding-left: 310px;
+  }
+}
+.main-content.history .page-container.history section.section-9 .layout-width > div p {
+  padding-right: 14rem;
+}
+.main-content.history .page-container.history section.section-9 .layout-width > div h2 {
+  padding-right: 7rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  font-size: 24px;
+}
+.main-content.history .page-container.history section.section-9 .page-overlay {
+  background: rgba(55, 159, 255, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-8 {
+  height: 983px;
+  position: relative;
+}
+.main-content.history .page-container.history section.section-8 .layout-bg {
+  background-image: url("../img/pexels-ivan-samkov-7620906.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-8 .page-overlay {
+  background: rgba(238, 76, 103, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-content.history .page-container.history section.section-8 .page-overlay .layout-width > div {
+  padding-top: 402px;
+  padding-left: 103px;
+}
+.main-content.history .page-container.history section.section-8 .page-overlay .layout-width > div h2 {
+  margin-bottom: 0px;
+}
+.main-content.history .page-container.history section.section-8 .page-overlay .layout-width > div p {
+  margin-top: 1.5rem;
+  padding-right: 24rem;
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+}
+.main-content.history .page-container.history section.section-8 .page-overlay .layout-width > div h3 {
+  margin-bottom: 0rem;
+}
+.main-content.history .page-container.history section.section-7 {
+  height: 982px;
+  background-image: url("../img/muslim.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (min-width: 900px) {
+  .main-content.history .page-container.history section.section-7 .layout-width > div {
+    padding-top: 350px;
+    padding-left: 320px;
+  }
+}
+.main-content.history .page-container.history section.section-7 .layout-width > div p {
+  padding-right: 14rem;
+}
+.main-content.history .page-container.history section.section-7 .layout-width > div h2 {
+  padding-right: 7rem;
+  margin-bottom: 1.5rem;
+  margin-top: 2rem;
+  font-size: 24px;
+}
+.main-content.history .page-container.history section.section-7 .layout-width > div h3 {
+  padding-right: 9rem;
+  margin-bottom: 0px;
+}
+.main-content.history .page-container.history section.section-7 .layout-width > div h3 span {
+  font-size: 40px;
+}
+.main-content.history .page-container.history section.section-7 .page-overlay {
+  background: rgba(55, 159, 255, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-6 {
+  height: 983px;
+  position: relative;
+}
+.main-content.history .page-container.history section.section-6 .layout-bg {
+  background-image: url("../img/pexels-ivan-samkov-7620906.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-6 .page-overlay {
+  background: rgba(238, 76, 103, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-content.history .page-container.history section.section-6 .page-overlay .layout-width > div {
+  padding-top: 402px;
+  padding-left: 103px;
+}
+.main-content.history .page-container.history section.section-6 .page-overlay .layout-width > div h2 {
+  margin-bottom: 0px;
+}
+.main-content.history .page-container.history section.section-6 .page-overlay .layout-width > div p {
+  margin-top: 1.5rem;
+  padding-right: 24rem;
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+}
+.main-content.history .page-container.history section.section-6 .page-overlay .layout-width > div h3 {
+  margin-bottom: 0rem;
+}
+.main-content.history .page-container.history section.section-5 {
+  height: 982px;
+  background-image: url("../img/pexels-andrea-piacquadio-4867670.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (min-width: 900px) {
+  .main-content.history .page-container.history section.section-5 .layout-width > div {
+    padding-top: 384px;
+    padding-left: 317px;
+  }
+}
+.main-content.history .page-container.history section.section-5 .layout-width > div p {
+  padding-right: 14rem;
+}
+.main-content.history .page-container.history section.section-5 .layout-width > div h2 {
+  padding-right: 7rem;
+  margin-bottom: 3rem;
+}
+.main-content.history .page-container.history section.section-5 .layout-width > div h3 {
+  padding-right: 9rem;
+  margin-bottom: 0px;
+}
+.main-content.history .page-container.history section.section-5 .layout-width > div h3 span {
+  font-size: 40px;
+}
+.main-content.history .page-container.history section.section-5 .page-overlay {
+  background: rgba(55, 159, 255, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-4 {
+  height: 983px;
+  position: relative;
+}
+.main-content.history .page-container.history section.section-4 .layout-bg {
+  background-image: url("../img/pexels-tima-miroshnichenko-5198239.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-4 .page-overlay {
+  background: rgba(238, 76, 103, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-content.history .page-container.history section.section-4 .page-overlay .layout-width > div {
+  padding-top: 401px;
+  padding-left: 113px;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section.section-4 .page-overlay .layout-width > div {
+    padding-top: 229px;
+  }
+}
+.main-content.history .page-container.history section.section-4 .page-overlay .layout-width > div h2 {
+  margin-bottom: 0px;
+}
+.main-content.history .page-container.history section.section-4 .page-overlay .layout-width > div p {
+  margin-top: 1.5rem;
+  padding-right: 24rem;
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+}
+.main-content.history .page-container.history section.section-4 .page-overlay .layout-width > div h3 {
+  margin-bottom: 0rem;
+}
+.main-content.history .page-container.history section.section-3 {
+  height: 982px;
+  background-image: url("../img/pexels-icsa-1708936.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (min-width: 900px) {
+  .main-content.history .page-container.history section.section-3 .layout-width > div {
+    padding-top: 432px;
+    padding-left: 318px;
+  }
+}
+.main-content.history .page-container.history section.section-3 .layout-width > div p {
+  padding-right: 6rem;
+}
+.main-content.history .page-container.history section.section-3 .layout-width > div h3 {
+  padding-right: 9rem;
+}
+.main-content.history .page-container.history section.section-3 .layout-width > div h3 span {
+  font-size: 40px;
+}
+.main-content.history .page-container.history section.section-3 .page-overlay {
+  background: rgba(55, 159, 255, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-2 {
+  height: 983px;
+  position: relative;
+}
+.main-content.history .page-container.history section.section-2 .layout-bg {
+  background-image: url("../img/pexels-cup-of-couple-6956795.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.section-2 .page-overlay {
+  background: rgba(238, 76, 103, 0.5);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-content.history .page-container.history section.section-2 .page-overlay .layout-width > div {
+  padding-top: 431px;
+  padding-left: 99px;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section.section-2 .page-overlay .layout-width > div {
+    padding-top: 67px;
+    padding-left: 0px;
+  }
+}
+.main-content.history .page-container.history section.section-2 .page-overlay .layout-width > div p {
+  margin-top: 1.5rem;
+  padding-right: 14rem;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+.main-content.history .page-container.history section.section-2 .page-overlay .layout-width > div h3 {
+  margin-bottom: 0rem;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section .layout-width > div {
+    padding-top: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+.main-content.history .page-container.history section .layout-width p {
+  line-height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section .layout-width p {
+    padding-right: 0px !important;
+  }
+}
+.main-content.history .page-container.history section .layout-width h2 {
+  font-size: 38px;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section .layout-width h2 {
+    padding-right: 0px !important;
+  }
+}
+.main-content.history .page-container.history section .layout-width h3 {
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 500;
+  margin-bottom: 3rem;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section .layout-width h3 {
+    padding-right: 0px !important;
+  }
+}
+.main-content.history .page-container.history section .layout-width h6 {
+  font-size: 22px !important;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+}
+.main-content.history .page-container.history section .layout-width h2, .main-content.history .page-container.history section .layout-width h6, .main-content.history .page-container.history section .layout-width h3, .main-content.history .page-container.history section .layout-width p {
+  color: #fff !important;
+}
+.main-content.history .page-container.history section.section-1 {
+  height: 982px;
+  background-image: url("../img/pexels-monstera-9433169.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+@media screen and (min-width: 900px) {
+  .main-content.history .page-container.history section.section-1 .layout-width > div {
+    padding-top: 432px;
+    padding-left: 307px;
+  }
+}
+.main-content.history .page-container.history section.section-1 .layout-width > div p {
+  padding-right: 6rem;
+}
+.main-content.history .page-container.history section.section-1 .layout-width > div h3 {
+  padding-right: 9rem;
+}
+@media screen and (max-width: 900px) {
+  .main-content.history .page-container.history section.section-1 .layout-width > div h3 {
+    padding-right: 0px;
+  }
+}
+.main-content.history .page-container.history section.section-1 .layout-width > div h3 span {
+  font-size: 38px;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+}
+.main-content.history .page-container.history section.section-1 .page-overlay {
+  background: rgba(55, 159, 255, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.page-hero {
+  height: 821px;
+  background-image: url("../img/pexels-mohamed-almari-2285837.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.main-content.history .page-container.history section.page-hero .page-overlay {
+  background: rgba(238, 76, 103, 0.5);
+  height: 100%;
+  width: 100%;
+}
+.main-content.history .page-container.history section.page-hero .page-overlay .layout-width h2 {
+  margin-bottom: 3rem;
+}
+.main-content.history .page-container.history section.page-hero .page-overlay .layout-width h3 {
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 900px) {
+  .main-content.history .page-container.history section.page-hero .page-overlay .layout-width > div {
+    width: 863px;
+    padding-left: 200px;
+    margin-top: 10rem;
+  }
+}
+.main-content.history .page-container.history section.page-hero .page-overlay .page-hero-header {
+  color: #fff;
+  padding-top: 4rem;
+  font-size: 64px;
+  text-transform: none !important;
+  font-weight: 500;
+}

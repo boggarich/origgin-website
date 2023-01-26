@@ -1,0 +1,126 @@
+.main-content {
+
+    &.customers {
+        margin-top: 0px;
+
+        section {
+
+            &.section-2 {
+                margin-top: 5rem;
+                margin-bottom: 35rem;
+
+                .layout-width {
+
+                    .grid-3 {
+                        row-gap: 32px;
+                    }
+
+                    .img-container-shadow {
+                        overflow: hidden;
+                        box-shadow: none !important;
+
+                        .hero-img {
+                            background-color: #000 !important;
+                            background-image: url("../img/White-Hilco-Global.svg");
+                            background-position: center;
+                            background-repeat: no-repeat;
+                            background-size: 245px;
+                        }
+
+                        .container-body {
+                            padding: 2rem 15px;
+                            background-color:#F7F9FA;
+                        }
+
+                        h4 {
+                            color: #000 !important;
+                            font-weight: 400;
+                        }
+                    }
+
+                }
+            }
+
+            &.section-1 {
+
+                .layout-width {
+                    padding: 2rem 2.5rem;
+                    background: #F7F9FA;
+
+                    .grid-4 {
+                        column-gap: 32px !important;
+
+                        > .select-has-inner-label {
+                            
+                            &:nth-child(4) {
+
+                                &::before {
+                                    content: "Company size"
+                                }
+
+                            }
+
+                            &:nth-child(3) {
+                                &::before {
+                                    content: "Product"
+                                }
+                            }
+                            
+                            &:nth-child(2) {
+                                &::before {
+                                    content: "Industry"
+                                }
+                            }
+
+                            &:nth-child(1) {
+                                &::before {
+                                    content: "Region"
+                                }
+                            }
+
+                        }
+
+                    }
+
+                }
+            }
+
+        }
+
+        .page-hero {
+            
+            .layout-width {
+                background: rgba(253, 59, 94, 0.5);
+                padding: 8rem 0 4rem;
+
+                .btn-pill {
+                    &.me-5 {
+                        margin-right: 2.5rem !important;
+                    }
+                }
+
+                .grid-3-row {
+                    row-gap: 42px;
+                }
+
+                .sub-header {
+                    color: #fff;
+                    font-size: 32px;
+                    font-weight: 600;
+                    margin-bottom: 2rem;
+                }
+
+                .page-hero-header {
+                    font-size: 62px;
+                    color: #fff;
+                    font-weight: 700;
+                    text-transform: none;
+                    margin-bottom: 0px;
+                }
+                
+            }
+
+        }
+    }
+
+}

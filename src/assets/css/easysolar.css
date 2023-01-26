@@ -1,0 +1,408 @@
+.page-container.easysolar .section-2 .slider-container, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) {
+  margin-top: 2.5rem;
+  margin-bottom: 10rem;
+}
+.page-container.easysolar .section-2 .slider-container .slick-track, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slick-track {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 412px) {
+  .page-container.easysolar .section-2 .slider-container .slick-track, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slick-track {
+    width: 100% !important;
+  }
+  .page-container.easysolar .section-2 .slider-container .slick-track > div, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slick-track > div {
+    flex-grow: 1;
+    width: 100% !important;
+  }
+}
+.page-container.easysolar .section-2 .slider-container .slick-track [data-index="4"] img, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slick-track [data-index="4"] img {
+  height: 85px;
+}
+.page-container.easysolar .section-2 .slider-container .slick-track [data-index="1"] img, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slick-track [data-index="1"] img {
+  height: 85px;
+}
+.page-container.easysolar .section-2 .slider-container .slick-track [data-index="0"] img, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slick-track [data-index="0"] img {
+  height: 80px;
+}
+.page-container.easysolar .section-2 .slider-container .slider-img, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slider-img {
+  width: auto;
+  height: 55px;
+  object-fit: contain;
+}
+.page-container.easysolar .section-2 .slider-container .slider-img.sps-logo, .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) .slider-img.sps-logo {
+  margin-top: 10px !important;
+}
+
+.page-container.easysolar .section-11 .layout-width {
+  padding-top: 11rem;
+  padding-bottom: 25rem;
+}
+.page-container.easysolar .section-11 .layout-width .btn-link-primary {
+  color: #7AC9C6 !important;
+}
+.page-container.easysolar .section-11 .layout-width .btn-pill {
+  background: #7AC9C6 !important;
+  border-color: #7AC9C6 !important;
+  margin-right: 4rem;
+}
+.page-container.easysolar .section-10 {
+  background: #F7F9FA;
+}
+.page-container.easysolar .section-10 .layout-width {
+  padding-top: 8rem;
+  padding-bottom: 6rem;
+}
+.page-container.easysolar .section-10 .layout-width .sub-header.main {
+  color: #6F4CF5 !important;
+}
+.page-container.easysolar .section-10 .layout-width .grid-2:first-child {
+  margin-bottom: 6rem;
+  grid-template-columns: 3fr 1fr;
+}
+.page-container.easysolar .section-10 .layout-width .grid-2:first-child + .grid-2 .link {
+  color: #6F4CF5 !important;
+}
+.page-container.easysolar .section-10 .layout-width .grid-2:first-child .grid-3-row p {
+  width: 95%;
+}
+.page-container.easysolar .section-9 {
+  background-color: white;
+  padding-top: 12rem;
+  padding-bottom: 14rem;
+}
+.page-container.easysolar .section-9 .layout-width .sub-header.main {
+  color: #0DE4E4;
+}
+.page-container.easysolar .section-9 .layout-width .grid-3 {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.page-container.easysolar .section-9 .layout-width .grid-3 p {
+  line-height: 20.44px;
+}
+.page-container.easysolar .section-9 .layout-width .grid-3 .btn-link-primary {
+  padding-left: 0 !important;
+  color: #7AC9C6 !important;
+}
+.page-container.easysolar .section-9 .layout-width .grid-3 .header-md {
+  margin-bottom: 0px;
+}
+.page-container.easysolar .section-8 {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.page-container.easysolar .section-8 .layout-width {
+  padding-top: 23rem;
+}
+.page-container.easysolar .section-8 .layout-width .grid-4 {
+  column-gap: 32px;
+}
+.page-container.easysolar .section-8 .layout-width > .grid-2 {
+  grid-template-columns: 2fr 1fr;
+}
+.page-container.easysolar .section-8 .layout-width > .grid-2 .grid-3-row {
+  margin-bottom: 3rem;
+}
+.page-container.easysolar .section-8 .layout-width > .grid-2 .grid-3-row .header-xxl {
+  margin-bottom: 32px;
+  margin-top: 6px;
+}
+.page-container.easysolar .section-8 .layout-width > .grid-2 .grid-3-row p {
+  font-weight: 500;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.5) !important;
+  line-height: 23.44px;
+}
+.page-container.easysolar .section-8 .layout-width > .grid-2 .sub-header {
+  color: #6F4CF5;
+}
+.page-container.easysolar .section-8::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(230, 234, 238, 0.3);
+  transform: skewY(346deg);
+  transform-origin: 100% 0;
+  z-index: 1;
+}
+@media screen and (min-width: 991px) {
+  .page-container.easysolar .section-8 {
+    height: 1128.07px;
+  }
+}
+.page-container.easysolar .section-7 {
+  background-color: white;
+}
+.page-container.easysolar .section-7 .layout-width {
+  padding-top: 11rem;
+  padding-bottom: 0rem;
+}
+.page-container.easysolar .section-7 .layout-width .slider-container.full-width {
+  box-shadow: 0px 50px 80px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-image: url("../img/boy2.svg");
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+}
+.page-container.easysolar .section-7 .layout-width .slider-container.full-width::before {
+  content: "";
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  z-index: 0;
+  background: linear-gradient(90deg, #664EFF 69.27%, rgba(102, 78, 255, 0.9) 100%);
+}
+.page-container.easysolar .section-7 .layout-width .slider-container.full-width .slick-slide {
+  width: 100%;
+  padding: 5rem 5rem 7rem 5.25rem;
+}
+@media screen and (max-width: 490px) {
+  .page-container.easysolar .section-7 .layout-width .slider-container.full-width .slick-slide {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+.page-container.easysolar .section-7 .layout-width .slider-container.full-width .slick-slide img {
+  position: absolute;
+  top: -25%;
+}
+@media screen and (max-width: 480px) {
+  .page-container.easysolar .section-7 .layout-width .slider-container.full-width .slick-slide img {
+    display: none;
+  }
+}
+.page-container.easysolar .section-7 .layout-width .slider-container.full-width .slick-slide .grid-2 {
+  grid-template-columns: 2fr 1fr;
+  z-index: 2;
+  position: relative;
+}
+.page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) {
+  margin-top: 3.5rem;
+}
+@media screen and (min-width: 991px) {
+  .page-container.easysolar .section-7 .layout-width .slider-container:not(.full-width) {
+    margin-left: 5.5rem;
+  }
+}
+.page-container.easysolar .section-6 {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+@media screen and (min-width: 991px) {
+  .page-container.easysolar .section-6 {
+    height: 1371.07px;
+  }
+}
+.page-container.easysolar .section-6 .layout-width {
+  padding-top: 30rem;
+  z-index: 2;
+  position: relative;
+}
+.page-container.easysolar .section-6 .layout-width .glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 20px 5px rgba(253, 59, 94, 0.1);
+  border-radius: 20px;
+  padding: 28px;
+  margin-top: 6rem;
+}
+.page-container.easysolar .section-6 .layout-width .grid-3-row {
+  margin-bottom: 3rem;
+}
+.page-container.easysolar .section-6 .layout-width .grid-3-row + .btn-pill {
+  background-color: #0DE4E4 !important;
+  border-color: #0DE4E4 !important;
+}
+.page-container.easysolar .section-6 .layout-width .grid-3-row p {
+  color: rgba(255, 255, 255, 0.5) !important;
+  width: 71%;
+}
+.page-container.easysolar .section-6 .layout-width .grid-3-row .sub-header {
+  color: #0DE4E4;
+}
+.page-container.easysolar .section-6 .layout-width .grid-3-row .header-xxl {
+  color: #fff !important;
+  margin-bottom: 23px;
+  font-weight: 500;
+}
+.page-container.easysolar .section-6::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #0A2540;
+  transform: skewY(346deg);
+  transform-origin: 100% 0;
+  z-index: 1;
+}
+.page-container.easysolar .section-5 {
+  background-color: white;
+}
+.page-container.easysolar .section-5 .layout-width {
+  padding-top: 5rem;
+  padding-bottom: 20rem;
+}
+.page-container.easysolar .section-5 .layout-width .grid-2 {
+  column-gap: 75px !important;
+  margin-top: 6.25rem;
+}
+.page-container.easysolar .section-5 .layout-width .grid-2 > div {
+  position: relative;
+}
+.page-container.easysolar .section-5 .layout-width .grid-2 .img-container-shadow {
+  margin-bottom: 2.425rem;
+}
+.page-container.easysolar .section-5 .layout-width .grid-2 .img-container-shadow + p {
+  margin-bottom: 0.75rem !important;
+  font-weight: 600;
+}
+.page-container.easysolar .section-5 .layout-width .grid-2 .img-container-shadow + p + p {
+  line-height: 19px;
+}
+.page-container.easysolar .section-4 {
+  background-color: white;
+}
+.page-container.easysolar .section-4 .layout-width {
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+}
+.page-container.easysolar .section-4 .layout-width > .grid-2 {
+  grid-template-columns: 2fr 1fr;
+}
+.page-container.easysolar .section-4 .layout-width > .grid-2 > div:first-child .grid-2-row {
+  margin-bottom: 3rem;
+}
+.page-container.easysolar .section-4 .layout-width > .grid-2 > div:first-child .grid-3-row:not(.has-icon) {
+  margin-bottom: 47px;
+}
+.page-container.easysolar .section-4 .layout-width > .grid-2 > div:first-child .grid-3-row:not(.has-icon) .header-xxl {
+  margin-bottom: 20px;
+}
+.page-container.easysolar .section-4 .layout-width > .grid-2 > div:first-child .grid-3-row:not(.has-icon) .header-xxl + p {
+  margin-bottom: 20px !important;
+}
+.page-container.easysolar .section-4 .layout-width > .grid-2 > div:first-child .grid-3-row:not(.has-icon) .arrow-link {
+  color: #6A7EE7;
+}
+.page-container.easysolar .section-3 {
+  margin-top: 7.5rem;
+  margin-bottom: 7rem;
+}
+.page-container.easysolar .section-3 .grid-2 > div:last-child {
+  position: relative;
+}
+.page-container.easysolar .section-3 .grid-2 > div:last-child .img-container-shadow {
+  width: 506px;
+  height: 328px;
+  box-shadow: 0px 0px 20px 5px rgba(253, 59, 94, 0.1);
+  border-radius: 50px;
+  position: absolute;
+  left: 0;
+}
+@media screen and (min-width: 991px) {
+  .page-container.easysolar .section-3 .grid-2 > div:last-child .img-container-shadow {
+    margin-left: 32px;
+  }
+}
+@media screen and (max-width: 990px) {
+  .page-container.easysolar .section-3 .grid-2 > div:last-child .img-container-shadow {
+    position: relative;
+  }
+}
+.page-container.easysolar .section-3 .grid-2 .grid-2 p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+}
+.page-container.easysolar .section-3 .grid-2 ul {
+  margin-bottom: 1.5rem;
+}
+.page-container.easysolar .section-3 .grid-2 ul + p {
+  margin-bottom: 4rem !important;
+}
+.page-container.easysolar .section-3 .grid-2 .header-xxl {
+  color: #000;
+  margin-bottom: 2.5rem;
+}
+.page-container.easysolar .section-2 {
+  margin-top: 7rem;
+}
+.page-container.easysolar .section-2 .sub-header {
+  font-size: 16px;
+  width: 99%;
+}
+.page-container.easysolar .section-2 h1 {
+  margin-bottom: 3.5rem;
+  width: 100%;
+}
+.page-container.easysolar .section-1 {
+  margin-top: 21rem;
+}
+.page-container.easysolar .section-1 .grid-4 {
+  column-gap: 46px;
+}
+.page-container.easysolar .section-1 .grid-4 h6 {
+  margin-bottom: 1.5rem;
+}
+.page-container.easysolar .section-1 .grid-4 p {
+  line-height: 18.75px;
+  font-size: 14px;
+}
+.page-container.easysolar .page-hero {
+  padding-top: 5%;
+}
+.page-container.easysolar .page-hero .button-group {
+  margin-top: 10%;
+}
+.page-container.easysolar .page-hero .sub-header {
+  font-size: 18px !important;
+  font-weight: 700;
+}
+.page-container.easysolar .page-hero .page-hero-header {
+  font-size: 58px;
+  line-height: 75px;
+  margin-bottom: 4rem;
+  font-weight: 700;
+}
+@media screen and (max-width: 412px) {
+  .page-container.easysolar .page-hero .page-hero-header {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+.page-container.easysolar .page-hero .img-group .img-container-shadow {
+  top: 123px;
+  position: absolute;
+  left: 64px;
+  z-index: 3;
+}
+.page-container.easysolar .page-hero .img-group .img-container-border {
+  position: relative;
+  z-index: 1;
+}
+.page-container.easysolar .page-hero .page-hero-bg {
+  background: linear-gradient(89.92deg, #FF024A 5.75%, #26A3E9 93.71%);
+  transform: matrix(-0.93, 0.33, -0.36, -0.94, 0, 0);
+  z-index: 2;
+  position: relative;
+  margin-top: -19rem;
+}
+.page-container.easysolar .page-hero .img-container-shadow {
+  width: 640px;
+  height: 802px;
+  background: #EBF2F9;
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+}

@@ -1,0 +1,213 @@
+@import "./variables.scss";
+
+.main-content {
+    
+    .header-wrapper {
+        background: #ee4c67;
+        border-bottom: 1px solid #CCC;
+        line-height: 66px;
+        height: 66px;
+        padding: 0 50px;
+        position: relative;
+
+        
+        img {
+            width: 141px;
+            position: relative;
+            margin-top: -7rem;
+
+            @media screen and (max-width: 480px) {
+                width: 95px;
+                margin-left: -3rem;
+            }
+        }
+
+    }
+
+    &.auth {
+        margin-top: 0px;
+        background-color: #F6F6F6;
+
+        .logo-container {
+
+            position: relative;
+
+            h4 {
+                font-size: 14px;
+                font-family: $fontPoppins !important;
+                text-align: center;
+
+                &:last-child {
+                    margin-bottom: 32px;
+                    color: rgba(0, 0, 0, 0.7) !important;
+                    font-size: 20px;
+                }
+
+
+                &:first-child {
+                    
+                    font-size: 36px;
+                    font-weight: 700;
+                    color: #000;
+                    white-space: nowrap;
+                    margin-bottom: 32px;
+
+                    @media screen and (max-width: 480px) {
+                        white-space: normal;
+                    }
+                }
+            }
+    
+        }
+
+
+        .layout-width {
+            display: flex;
+            align-items: center;
+            padding-top: 3.5rem;
+            max-width: 1080px;
+            flex-direction: column;
+
+            .footer-wrapper {
+                padding-left: 20px !important;
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    padding-left: 0px !important;
+                    padding-top: 24px;
+                    margin-bottom: 32px;
+
+                    li {
+                        font-family: $fontPoppins !important;
+                        color: #697386;
+                        font-size: 14px;
+                        margin-left: 8px;
+
+                        &:first-child {
+                            margin-left: 0px !important;
+                        }
+
+                        a {
+                            font-family: $fontPoppins !important;
+                            color: #697386;
+                            font-size: 14px;  
+                        }
+                    }
+                }
+            }
+
+            .card-shadow-container {
+                width: 540px;
+
+                @media screen and (max-width: 480px) {
+                    width: 100%;
+                }
+
+                p {
+                    font-size: 14px;
+                    font-family: $fontPoppins !important;
+                    // padding-top: 32px;
+                    text-align: center;
+
+                    a {
+                        font-family: $fontPoppins !important; 
+                        color: #379fff;
+                    }
+                }
+
+                .card-shadow {
+                    width: 100%;
+
+                    form {
+
+                        a {
+                            color: #ee4c67;
+                        }
+
+                        + a {
+                            font-size: 14px;
+                            display: table;
+                            margin: 0 auto;
+                            font-family: $fontPoppins !important;
+                            color: #379fff;
+                        }
+
+                        button {
+                            line-height: 28px;
+                            padding: 8px 16px;
+                            border-radius: 4px;
+                            margin-bottom: 32px;
+                            background-color: #ee4c67;
+                            box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, 
+                            rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+                             rgb(0 0 0 / 12%) 0px 1px 1px 0px,
+                             #ee4c67 0px 0px 0px 1px,
+                               rgb(0 0 0 / 0%) 0px 0px 0px 0px,
+                                rgb(0 0 0 / 0%) 0px 0px 0px 0px, 
+                                rgb(60 66 87 / 8%) 0px 2px 5px 0px;
+                            border-color: #ee4c67;
+
+                            span {
+                                font-family: $fontPoppins !important;
+                                font-size: 16px;
+                            }
+                        }    
+
+                        .form-check {
+                            padding-bottom: 32px;
+                            margin-bottom: 0px;
+
+                            .form-check-input:focus {
+                                border-color: #ee4c67;
+                                outline: 0;
+                                box-shadow: 0 0 0 0.25rem rgba(235, 103, 103, 0.25);
+                            }
+
+                            .form-check-input:checked {
+                                background-color: #ee4c67;
+                                border-color: #ee4c67 !important;
+                                box-shadow: 0 0 0 0.25rem rgba(235, 103, 103, 0.25);
+                            }
+
+                            input {
+                                // box-shadow: #ee4c67 0px 0px 0px 0px,
+                                // #ee4c67 0px 0px 0px 0px,
+                                // #ee4c67 0px 1px 1px 0px, 
+                                //               #ee4c67 0px 0px 0px 0px, 
+                                //               #ee4c67 0px 0px 0px 0px,
+                                //               #ee4c67 0px 2px 5px 0px;
+                                
+                            }
+
+                            label {
+                                margin-bottom: 0px;
+                            }
+                        }
+
+                        .form-group {
+                            margin-bottom: 32px;
+
+                            input {
+                                font-weight: 400;
+                                font-size: 16px;
+                                line-height: 28px;
+                                padding: 8px 16px;
+                                border-radius: 4px;
+                            }
+                        }
+
+                    }
+
+                    h4 {
+                        font-weight: 700;
+                        font-family: $fontPoppins !important;
+                        margin-bottom: 20px;
+                    }
+
+
+                }
+            }
+        }
+    }
+}

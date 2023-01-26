@@ -1,0 +1,180 @@
+$gridColumnsLarge: 1fr 1fr;
+$gridRowsLarge: 280px 280px 280px 280px;
+
+.layered-grid-wall {
+    display: grid;
+
+    &.marketplace {
+        > div {
+            border-radius: 10px;
+
+            .content-footer {
+                .header-md {
+                    font-size: 22px;
+                }
+            }
+
+            &.bottom-right {
+                grid-area: 3/2/span 2;
+
+                .layer-bg {
+                    background-image: url("../img/woman-driving-2.png");
+                }
+
+                .layer-foreground {
+                    background: linear-gradient(180deg, rgba(128, 69, 246, 0.5) 0%, #8045F6 100%);
+                }
+
+            }
+
+            &.center-right {
+                grid-area: 2/2;
+
+                .layer-bg {
+                    background-image: url("../img/delivery-bag.png");
+                }
+
+                .layer-foreground {
+                    background: linear-gradient(180deg, rgba(231, 130, 50, 0.5) 0%, #E78232 100%);
+                }
+
+            }
+
+            &.top-right {
+                grid-area: 1/2;
+
+                .layer-bg {
+                    background-image: url("../img/grocery-store.png");
+                }
+
+                .layer-foreground {
+                    background: linear-gradient(180deg, rgba(18, 166, 72, 0.5) 0%, #12A648 100%);
+                }
+
+            }
+
+            &.bottom-left {
+                grid-area: 4/1;
+
+                .content-header {
+                    .header-xl {
+                        font-weight: 500;
+                        font-style: italic;
+                    }
+                }
+
+                .layer-bg {
+                    background-image: url("../img/painting.png");
+                }
+
+                .layer-foreground {
+                    background: linear-gradient(180deg, rgba(220, 73, 91, 0.5) 0%, #DC495B 100%);
+                }
+
+            }
+
+            &.center-left {
+                grid-area: 3/1;
+
+                .content-header {
+                    .header-xl {
+                        font-weight: 500;
+                    }
+                }
+
+                .layer-bg {
+                    background-image: url("../img/police-officer-2.png");
+                }
+
+                .layer-foreground {
+                    background: linear-gradient(180deg, rgba(80, 176, 137, 0.5) 0%, #50B089 100%);
+                }
+
+            }
+
+            &.top-left {
+                grid-area: 1/1/span 2/2;
+
+                .layer-bg {
+                    background-image: url("../img/easter-eggs.png");
+                }
+
+                .layer-foreground {
+                    background: linear-gradient(180deg, rgba(34, 34, 34, 0.5) 0%, #222222 100%);
+                }
+
+            }
+        }
+    }
+
+    @media screen and (min-width: 991px) {
+        grid-template-columns: $gridColumnsLarge;
+        grid-template-rows: $gridRowsLarge;
+        column-gap: 20px;
+        row-gap: 20px;
+    }
+
+}
+
+.sub-nav-wrapper {
+    margin-top: 7.5rem;
+
+    &.tab-content {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+    }
+
+    &#startup > .grid-2 {
+        grid-template-columns: 1fr 4fr;
+
+        .layered {
+            border-radius: 10px;
+            filter: drop-shadow(0px 25px 50px rgba(0, 0, 0, 0.15));
+
+            .layer-foreground {
+                background: linear-gradient(180deg, rgba(70, 91, 198, 0.5) 0%, #465BC6 100%);
+
+                .content-footer {
+                    h4 {
+                        width: 75%;
+                    }
+                }
+            }
+
+            .layer-bg {
+               background-image: url("../img/police-officer-2.png");
+            }
+        }
+
+        .grid-3-row {
+
+            .grid-4-row {
+                p:not(:last-child) {
+                    color: #000 !important;
+                }
+            }
+
+            .grid-2-row {
+                margin-bottom: 2.25rem;
+
+                h4 {
+                    color: rgba(0, 0, 0, 0.8) !important;
+                }
+
+                p {
+                    color: rgba(0, 0, 0, 0.7) !important;
+                }
+            }
+
+        }
+
+        .header-md {
+            margin-bottom: 0px;
+            font-size: 22px;
+        }
+    }
+    
+}

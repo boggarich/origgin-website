@@ -1,0 +1,187 @@
+.page-container {
+    &.waakye-locator {
+
+        .page-hero-bg {
+            margin-top: -7.825rem;
+        }
+
+        .section-4 {
+
+            padding: 6rem 0 11rem;
+
+            .layout-width {
+
+                .img-container-shadow {
+                    margin-top: 0 !important;
+                }
+
+                .row {
+
+                    .col-lg-6 {
+
+                        .sub-header {
+                            padding-right: 4rem;
+                        }
+
+                        h4 {
+                            &:nth-child(2) {
+                                margin-bottom: 6rem;
+                            }
+                        }
+
+                        .header-xl {
+                            margin-bottom: 3rem;
+                            font-size: 32px !important;
+                        }
+
+                    }
+
+                }
+
+                h2:first-child {
+                    margin-bottom: 3rem;
+                }
+
+            }
+
+        }
+
+        .section-3 {
+            padding-bottom: 5rem;
+            background-image: url("../img/triangular-gradient-bg.svg");
+            background-repeat: no-repeat;
+            padding-top: 8rem;
+            background-size: cover;
+            height: 1080px;
+
+            .layout-width {
+                padding-top: 11rem;
+
+                .img-container-shadow {
+                    margin-top: 0 !important;
+                }
+
+                .row {
+
+                    &:first-child {
+                        margin-bottom: 5rem;
+                    }
+
+                }
+
+
+                .header-md {
+                    margin-bottom: 2rem;
+                    color: #fff;
+
+                    
+                    @media screen and (max-width: 412px) {
+                        margin-top: 4rem;
+                    }
+
+                    + .sub-header {
+                        padding-right: 4rem;
+                        color: #fff !important;
+                    }
+
+                }
+
+                .header-xl {
+                    margin-bottom: 4rem;
+                    padding-right: 4rem;
+                    color: #fff;
+
+                    @media screen and (max-width: 412px) {
+                        margin-top: 9rem;
+                    }
+
+                    + .sub-header {
+                        margin-bottom: 4.5rem;
+                        padding-right: 4rem;
+                        color: #fff;
+                    }
+                }
+
+            }
+
+        }
+
+        .section-2 {
+            padding: 8rem 0 1rem 0;
+
+            .sub-header {
+                padding-right: 4rem;
+            }
+
+            .header-xl {
+                margin-bottom: 4rem;
+            }
+        }
+
+        .section-1 {
+            margin-top: 15rem;
+            margin-bottom: 6rem;
+
+            .sub-header {
+                padding-right: 4rem;
+            }
+
+            .header-xl {
+                color: #000 !important;
+                line-height: 42px;
+
+                &:nth-child(2) {
+                    margin-bottom: 4rem;
+                }
+
+                &:first-child {
+                    margin-bottom: 4rem;
+                }
+
+            }
+
+            .img-container-shadow {
+                width: 506px;
+                height: 415px;
+                margin-top: -3rem !important;
+            }
+        }
+
+        .page-hero {
+            padding-top: 2.5%;
+
+            .img-container-shadow {
+                width: 640px;
+                height: 523px;
+            }
+
+            .sub-header {
+                width: 74%;
+                line-height: 20.44px;
+                margin-bottom: 1rem;
+            }
+
+            .page-hero-header {
+                text-transform: none;
+                font-size: 600;
+                font-size: 46px;
+            }
+
+            .header-xl {
+                margin-bottom: 2.625rem;
+                font-weight: 500;
+            }
+        }
+
+        .img-group {
+
+            .img-container-shadow {
+                width: 506px;
+                height: 415px;
+                margin-top: 1.625rem;
+                box-shadow: 0px 0px 50px 10px rgba(253, 59, 94, 0.1) !important;
+            }
+
+        }
+    }
+}

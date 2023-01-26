@@ -1,0 +1,562 @@
+@import '../../assets/sass/variables.scss';
+
+.main-content.history {
+    
+
+    + footer {
+
+        .footer-container {
+            padding-top: 0 !important;
+
+            .layout-width {
+                padding-top: 0 !important;
+            }
+        }
+        
+    }
+
+    .page-container {
+
+        &.history {
+
+            section {
+
+                .page-overlay {
+                    @media screen and (max-width: 900px) {
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+
+                &.section-9 {
+                    height: 982px;
+                    background-image: url("../img/muslim.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+
+                    @media screen and (max-width: 900px) {
+                        margin-bottom: 5rem;
+                    }
+
+                    .layout-width {
+                        > div {
+
+                            @media screen and (min-width: 900px) {
+                                padding-top: 398px;
+                                padding-left: 310px;
+                            }
+
+                            p {
+                                padding-right: 14rem;
+                            }
+
+                            h2 {
+                                padding-right: 7rem;
+                                margin-bottom: 1.5rem;
+                                margin-top: 2rem;
+                                font-size: 24px;
+                            }
+
+                        }
+                    }
+
+                    .page-overlay {
+                        background: rgba(55, 159, 255, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        
+                    }
+
+                }
+
+                &.section-8 {
+                    height: 983px;
+                    position: relative;
+
+                    .layout-bg {
+                        background-image: url("../img/pexels-ivan-samkov-7620906.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        transform: matrix(-1, 0, 0, 1, 0, 0);
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .page-overlay {
+                        background: rgba(238, 76, 103, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+
+                        .layout-width {
+                            > div {
+                                padding-top: 402px;
+                                padding-left: 103px;
+
+                                h2 {
+                                    margin-bottom: 0px;
+                                }
+
+                                p {
+                                    margin-top: 1.5rem;
+                                    padding-right: 24rem;
+                                    font-size: 16px;
+                                    line-height: 18.75px;
+                                    font-weight: 400;
+
+                                }
+
+                                h3 {
+                                    margin-bottom: 0rem;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                &.section-7 {
+                    height: 982px;
+                    background-image: url("../img/muslim.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+
+                    .layout-width {
+                        > div {
+
+                            @media screen and (min-width: 900px) {
+                                padding-top: 350px; 
+                                padding-left: 320px;
+                            }
+
+                            p {
+                                padding-right: 14rem;
+                            }
+
+                            h2 {
+                                padding-right: 7rem;
+                                margin-bottom: 1.5rem;
+                                margin-top: 2rem;
+                                font-size: 24px;
+                            }
+
+                            h3 {
+                                padding-right: 9rem;
+                                margin-bottom: 0px;
+
+                                span {
+                                    font-size: 40px;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .page-overlay {
+                        background: rgba(55, 159, 255, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        
+                    }
+
+                }
+
+                &.section-6 {
+                    height: 983px;
+                    position: relative;
+
+                    .layout-bg {
+                        background-image: url("../img/pexels-ivan-samkov-7620906.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        transform: matrix(-1, 0, 0, 1, 0, 0);
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .page-overlay {
+                        background: rgba(238, 76, 103, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+
+                        .layout-width {
+                            > div {
+                                padding-top: 402px;
+                                padding-left: 103px;
+
+                                h2 {
+                                    margin-bottom: 0px;
+                                }
+
+                                p {
+                                    margin-top: 1.5rem;
+                                    padding-right: 24rem;
+                                    font-size: 16px;
+                                    line-height: 18.75px;
+                                    font-weight: 400;
+
+                                }
+
+                                h3 {
+                                    margin-bottom: 0rem;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                &.section-5 {
+                    height: 982px;
+                    background-image: url("../img/pexels-andrea-piacquadio-4867670.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+
+                    .layout-width {
+                        > div {
+
+                            @media screen and (min-width: 900px) {
+                                padding-top: 384px; 
+                                padding-left: 317px;
+                            }
+
+                            p {
+                                padding-right: 14rem;
+                            }
+
+                            h2 {
+                                padding-right: 7rem;
+                                margin-bottom: 3rem;
+                            }
+
+                            h3 {
+                                padding-right: 9rem;
+                                margin-bottom: 0px;
+
+                                span {
+                                    font-size: 40px;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .page-overlay {
+                        background: rgba(55, 159, 255, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        
+                    }
+
+                }
+
+                &.section-4 {
+                    height: 983px;
+                    position: relative;
+
+                    .layout-bg {
+                        background-image: url("../img/pexels-tima-miroshnichenko-5198239.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        transform: matrix(-1, 0, 0, 1, 0, 0);
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .page-overlay {
+                        background: rgba(238, 76, 103, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+
+                        .layout-width {
+                            > div {
+                                padding-top: 401px;
+                                padding-left: 113px;
+
+                                @media screen and (max-width: 900px) {
+                                    padding-top: 229px;
+                                }
+
+                                h2 {
+                                    margin-bottom: 0px;
+                                }
+
+                                p {
+                                    margin-top: 1.5rem;
+                                    padding-right: 24rem;
+                                    font-size: 16px;
+                                    line-height: 18.75px;
+                                    font-weight: 400;
+
+                                }
+
+                                h3 {
+                                    margin-bottom: 0rem;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                &.section-3 {
+                    height: 982px;
+                    background-image: url("../img/pexels-icsa-1708936.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+
+                    .layout-width {
+                        > div {
+
+                            @media screen and (min-width: 900px) {
+                                padding-top: 432px; 
+                                padding-left: 318px;
+                            }
+
+                            p {
+                                padding-right: 6rem;
+                            }
+
+                            h3 {
+                                padding-right: 9rem;
+
+                                span {
+                                    font-size: 40px;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .page-overlay {
+                        background: rgba(55, 159, 255, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        
+                    }
+
+                }
+
+                &.section-2 {
+                    height: 983px;
+                    position: relative;
+
+                    .layout-bg {
+                        background-image: url("../img/pexels-cup-of-couple-6956795.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        transform: matrix(-1, 0, 0, 1, 0, 0);
+                        position: relative;
+                        height: 100%;
+                        width: 100%;
+                    }
+
+                    .page-overlay {
+                        background: rgba(238, 76, 103, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+
+                        .layout-width {
+                            > div {
+                                padding-top: 431px;
+                                padding-left: 99px;
+
+                                @media screen and (max-width: 900px) {
+                                    padding-top: 67px;
+                                    padding-left: 0px;
+                                }
+
+                                p {
+                                    margin-top: 1.5rem;
+                                    padding-right: 14rem;
+                                    font-weight: 400;
+                                    font-size: 24px;
+                                    line-height: 28px;
+
+                                }
+
+                                h3 {
+                                    margin-bottom: 0rem;
+                                }
+                            }
+                        }
+
+                    }
+                }
+
+                .layout-width {
+
+                    > div {
+
+                        @media screen and (max-width: 900px) {
+                            padding-top: 0px !important;
+                            padding-left: 0px !important; 
+                        }
+
+                    }
+
+                    p {
+                        line-height: 19px;
+                        font-weight: 500;
+                        font-size: 16px;
+
+                        @media screen and (max-width: 900px) {
+                            padding-right: 0px !important;
+                        }
+                    }
+
+                    h2 {
+                        font-size: 38px;
+                        font-family: $fontPoppins !important;
+
+                        @media screen and (max-width: 900px) {
+                            padding-right: 0px !important;
+                        }
+                    }
+
+                    h3 {
+                        font-size: 30px;
+                        line-height: 38px;
+                        font-weight: 500;
+                        margin-bottom: 3rem;
+                        font-family: $fontPoppins !important;
+
+                        @media screen and (max-width: 900px) {
+                            padding-right: 0px !important;
+                        }
+                    }
+
+                    h6 {
+                        font-size: 22px !important;
+                        line-height: 28px;
+                        margin-bottom: 0;
+                        font-family: $fontPoppins !important;
+                    }
+
+                    h2, h6, h3, p {
+                        color: #fff !important;
+                    }
+
+                }
+
+                &.section-1 {
+                    height: 982px;
+                    background-image: url("../img/pexels-monstera-9433169.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+
+                    .layout-width {
+                        > div {
+
+                            @media screen and (min-width: 900px) {
+                                padding-top: 432px; 
+                                padding-left: 307px;
+                            }
+
+                            p {
+                                padding-right: 6rem;
+
+                                @media screen {
+                                    
+                                }
+                            }
+
+                            h3 {
+                                padding-right: 9rem;
+
+                                @media screen and (max-width: 900px) {
+                                    padding-right: 0px;
+                                }
+
+                                span {
+                                    font-size: 38px;
+                                    font-family: $fontPoppins !important;
+                                }
+                            }
+
+                        }
+                    }
+
+                    .page-overlay {
+                        background: rgba(55, 159, 255, 0.5);
+                        height: 100%;
+                        width: 100%;
+                        
+                    }
+
+                }
+                
+                &.page-hero {
+                    height: 821px;
+                    background-image: url("../img/pexels-mohamed-almari-2285837.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center center;
+
+                    .page-overlay {
+                        background: rgba(238, 76, 103, 0.5);
+                        height: 100%;
+                        width: 100%;
+
+                        .layout-width {
+                            h2 {
+                                margin-bottom: 3rem;
+                            }
+
+                            h3 {
+                                margin-bottom: 0px;
+                            }
+
+                            > div {
+                                
+
+                                @media screen and (min-width: 900px) {
+                                    width: 863px;
+                                    padding-left: 200px;
+                                    margin-top: 10rem;
+                                }
+
+                            }
+                        }
+
+                        .page-hero-header {
+                            color: #fff;
+                            padding-top: 4rem;
+                            font-size: 64px;
+                            text-transform: none !important;
+                            font-weight: 500;
+                        }
+
+                    }
+                }
+
+
+            }
+
+        }
+
+    }
+}

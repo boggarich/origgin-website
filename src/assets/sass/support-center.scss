@@ -1,0 +1,133 @@
+.main-content.support-center {
+
+    > .layout-width {
+        padding-bottom: 5rem;
+
+        > .grid-2 {
+            grid-template-columns: 2fr 1fr;
+            margin-top: 8rem;
+
+            > div {
+
+                &:first-child {
+
+                    .sub-header.main {                        
+                        color: #000 !important;
+                    }
+
+                    @media screen and (min-width: 991px) {
+                        margin-right: 5rem;
+                    }
+                }
+
+                &:last-child {
+                    height: fit-content;
+
+                    .page-separator {
+                        margin: 2rem 0;
+                        
+
+                        + .sub-header {
+                            margin-bottom: 1rem;
+                            color: #000 !important;
+                            font-weight: 600 !important;
+                        }
+                    }
+
+                    a {
+                        margin-bottom: 0.75rem;
+                        color: #6F4CF5 !important;
+                        font-weight: 600;
+                        display: block;
+                    }
+
+                    .sub-header {
+                        color: #6F4CF5;
+
+                        &.main {
+                            font-weight: 700;
+
+                            + p {
+                                color: #000 !important;
+                            }
+
+                        }
+                    }
+
+                    background-color: #F7F9FA;
+                    padding-top: 3.5rem;
+                    padding-bottom: 2rem;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                }
+
+            }
+        }
+    }
+
+    .section-2 {
+        background: #F7F9FA;
+        padding: 7rem 0 4rem;
+
+        .grid-4 {
+            column-gap: 32px;
+            margin-bottom: 5rem;
+
+            .flex-3-row {
+
+                .sub-header {
+                    color: #FD3B5E;
+                    margin-bottom: 0 !important;
+                }
+
+                > div {
+                    margin-bottom: 2rem;
+
+                    img {
+                        margin-bottom: 2rem;
+                        height: 30px !important;
+                        width: 30px !important;
+                    }
+        
+                   
+                }
+
+            }
+
+        }
+    }
+
+    .section-1 {
+
+        .sub-header.main {
+            margin-bottom: 2rem;
+        }
+
+        .grid-3-row {
+            margin-bottom: 3rem;
+            row-gap: 14px;
+
+            span {
+                color: #6F4CF5 !important;
+
+            }
+
+            .sub-header {
+                margin-bottom: 0px;
+                font-size: 16px;
+                font-weight: 600;
+                color: #6F4CF5;
+            }
+        }
+    }
+
+    .page-hero {
+        margin-bottom: 4rem;
+
+        .page-hero-header {
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
+    }
+
+}

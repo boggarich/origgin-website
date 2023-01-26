@@ -1,0 +1,87 @@
+.main-content.contact {
+  padding-bottom: 15rem;
+}
+.main-content.contact label {
+  margin-left: 6px;
+}
+.main-content.contact textarea {
+  height: 152px;
+}
+.main-content.contact select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  appearance: none !important;
+  text-indent: 1px !important;
+  text-overflow: "" !important;
+  padding: 0.75rem 2.25rem 0.75rem 0.75rem !important;
+}
+.main-content.contact select::-ms-expand {
+  display: none !important;
+}
+.main-content.contact .layout-width .card-shadow {
+  height: fit-content !important;
+  min-height: fit-content !important;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+}
+.main-content.contact .layout-width .col-12, .main-content.contact .layout-width .col-md-12 {
+  margin-top: 1.5rem;
+}
+.main-content.contact .layout-width > div:not(.grid-2) > div > div {
+  border-radius: 8px !important;
+  width: calc(100% - 32px) !important;
+  display: table;
+  margin: 0 auto !important;
+}
+.main-content.contact .layout-width > .grid-2 {
+  column-gap: 40px;
+}
+.main-content.contact .layout-width > .grid-2 .header-lg {
+  margin-left: 0.5rem;
+}
+.main-content.contact .layout-width > .grid-2 > div .card-shadow:nth-child(2) {
+  padding-bottom: 2.5rem !important;
+}
+.main-content.contact .layout-width > .grid-2 > div .card-shadow:nth-child(2) .grid-2-row {
+  margin-bottom: 2rem;
+}
+.main-content.contact .layout-width > .grid-2 > div .card-shadow:nth-child(2) .grid-2-row .sub-header {
+  margin-bottom: 0px !important;
+}
+.main-content.contact .layout-width > .grid-2 > div .card-shadow:nth-child(2) {
+  margin-bottom: 5rem !important;
+}
+.main-content.contact .layout-width > .grid-2 > div .card-shadow:nth-child(2) h4.sub-header {
+  margin-bottom: 0px !important;
+}
+.main-content.contact .layout-width > .grid-2 > div > div:first-child {
+  margin-bottom: 5rem;
+}
+.main-content.contact .layout-width > .grid-2 > div > div:first-child, .main-content.contact .layout-width > .grid-2 > div > div:nth-child(3) {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+  max-height: 572px;
+}
+.main-content.contact .layout-width > .grid-2 > div > div:first-child .grid-2-row, .main-content.contact .layout-width > .grid-2 > div > div:nth-child(3) .grid-2-row {
+  row-gap: 12px;
+}
+.main-content.contact .layout-width > .grid-2 > div > div:first-child .grid-2-row p, .main-content.contact .layout-width > .grid-2 > div > div:nth-child(3) .grid-2-row p {
+  font-size: 14px;
+}
+.main-content.contact .layout-width > .grid-2 > div > div:first-child .sub-header, .main-content.contact .layout-width > .grid-2 > div > div:nth-child(3) .sub-header {
+  margin-bottom: 0px !important;
+}
+.main-content.contact .layout-width > .grid-2 > div > div:first-child > div, .main-content.contact .layout-width > .grid-2 > div > div:nth-child(3) > div {
+  margin-bottom: 1.5rem;
+}
+.main-content.contact #map {
+  height: 600px;
+  width: 100%;
+  background-color: green;
+  border-radius: 4px;
+  margin-bottom: 5rem;
+}

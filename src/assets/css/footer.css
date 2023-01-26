@@ -1,0 +1,194 @@
+footer .footer-container {
+  position: relative;
+  padding-top: 5.5rem;
+}
+footer .footer-container .footer-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  filter: blur(200px);
+}
+footer .footer-container .footer-background .glass-effect {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(113.06deg, rgba(217, 217, 217, 0) 0%, rgba(217, 217, 217, 0) 99.37%);
+}
+footer .footer-container .footer-background div[class^=ellipse-] {
+  position: absolute;
+  height: 252.1px;
+  width: 250.1px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 100%;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(1) {
+  top: 0;
+  left: 0;
+  background-color: #FF024A;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(2) {
+  top: -10%;
+  left: 37%;
+  background-color: #E989EB;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(3) {
+  top: 0;
+  right: 16%;
+  background-color: #379FFF;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(4) {
+  top: 32%;
+  left: 20%;
+  background-color: #379FFF;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(5) {
+  top: 28%;
+  left: 48%;
+  background-color: #FF024A;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(6) {
+  top: 26%;
+  right: 0;
+  background-color: #E7515B;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(7) {
+  bottom: 0;
+  left: 2%;
+  background-color: #E989EB;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(8) {
+  bottom: 2%;
+  left: 40%;
+  background-color: #E7515B;
+}
+footer .footer-container .footer-background div[class^=ellipse-]:nth-child(9) {
+  bottom: 4%;
+  right: 11%;
+  background-color: #E989EB;
+}
+footer .footer-container .layout-width {
+  padding-bottom: 0;
+  z-index: 2;
+  position: relative;
+}
+footer .footer-container .layout-width .privacy-policy a {
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+footer .footer-container .layout-width .company-name {
+  margin-top: 89px;
+  margin-bottom: 0.5rem !important;
+}
+footer .footer-container .layout-width .goog-te-gadget {
+  font-size: 0px;
+}
+footer .footer-container .layout-width label {
+  color: rgba(0, 0, 0, 0.6) !important;
+  font-size: 14px;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+  margin-left: 6px;
+}
+footer .footer-container .layout-width label + .col-sm-10 {
+  margin-right: 2rem;
+}
+footer .footer-container .layout-width .goog-te-combo {
+  font-size: 14px !important;
+  background: transparent;
+  color: rgba(0, 0, 0, 0.6) !important;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  outline: none !important;
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+}
+footer .footer-container .layout-width .goog-te-combo option {
+  font-family: "Poppins", "Helvetica", "Arial" !important;
+}
+footer .footer-container .layout-width .row .col-lg-3 {
+  padding-top: 7.125rem;
+  padding-bottom: 4.5rem;
+}
+@media screen and (max-width: 900px) {
+  footer .footer-container .layout-width .row .col-lg-3 {
+    padding-top: 0rem;
+  }
+}
+@media screen and (max-width: 412px) {
+  footer .footer-container .layout-width .row .col-lg-3 {
+    padding-top: 0rem;
+  }
+}
+@media screen and (min-width: 900px) {
+  footer .footer-container .layout-width .row .col-lg-3:not(:first-child) {
+    border-left: 1px solid rgba(0, 0, 0, 0.05);
+  }
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section {
+  padding-bottom: 0.625rem;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section.social-media-handle-container {
+  top: -2.625rem;
+  position: relative;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section.social-media-handle-container > div {
+  position: relative;
+  top: -1.25rem;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section.social-media-handle-container > div p {
+  font-family: "Nunito", "Helvetica Neue", "Arial" !important;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section a:hover h6 {
+  color: rgba(0, 0, 0, 0.4);
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section a:hover p {
+  color: rgba(0, 0, 0, 0.4) !important;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section a p {
+  transition: color 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  font-size: 15px;
+  margin-bottom: 0.425rem !important;
+  font-family: "Nunito", "Helvetica Neue", "Arial" !important;
+  color: rgba(0, 0, 0, 0.6) !important;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section h6 {
+  font-size: 15px;
+  transition: color 150ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section h5 {
+  font-size: 17px;
+  margin-bottom: 0.75rem !important;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section h6, footer .footer-container .layout-width .row .col-lg-3 .footer-content section h5 {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 600;
+  font-family: "Nunito", "Helvetica Neue", "Arial" !important;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section ul {
+  list-style: none;
+  padding-left: 0 !important;
+  width: fit-content;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section ul li {
+  width: fit-content;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section .social-media-handles {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 1.5rem;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section .social-media-handles a {
+  margin-right: 1.525rem;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section .social-media-handles a img {
+  width: 36px;
+  height: auto;
+  object-fit: contain;
+}
+footer .footer-container .layout-width .row .col-lg-3 .footer-content section .page-logo {
+  height: 124px;
+  width: auto;
+  position: relative;
+  margin-left: -21px;
+}

@@ -1,0 +1,331 @@
+@import "../../assets/sass/variables.scss";
+
+.modal {
+    &.the-origgin-vision-modal {
+
+        .modal-dialog {
+
+            @media (min-width: 576px) {
+                max-width: 855px;
+            }
+
+            .modal-header {
+
+                border-bottom: 0;
+
+                @media screen and (min-width: 481px) {
+                    display: none;
+                }
+
+                button {
+   
+                    &.btn-close {            
+                        opacity: 1;
+                        background: transparent url('data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23FD3B5E%27%3e%3cpath d=%27M.293.293a1 1 0 0 1 1.414 0L8 6.586 14.293.293a1 1 0 1 1 1.414 1.414L9.414 8l6.293 6.293a1 1 0 0 1-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 0 1-1.414-1.414L6.586 8 .293 1.707a1 1 0 0 1 0-1.414z%27/%3e%3c/svg%3e') center/1em auto no-repeat !important;
+                    }
+
+                    @media screen and (min-width: 481px) {
+                        display: none;
+                    }
+                  
+                }
+            }
+
+            .modal-content {
+                border-radius: 0px;
+
+                .modal-body {
+
+                    padding: 0;
+
+                    .modal-content-container {
+                        
+                        @media screen and (min-height: 900px) {
+                            height: 555px !important;
+                        }
+                                
+                        .grid-2 {
+
+                            grid-template-columns: 308px 1fr;
+                            height: 100%;
+
+                            > div {
+
+                                &:last-child {
+
+                                    text-align: center;
+
+                                    p {
+                                        font-weight: 400;
+                                        font-size: 18px;
+                                        line-height: 23px;
+                                        padding-right: 2rem;
+                                        padding-bottom: 4rem;
+                                    }
+
+                                    .header-sm {
+                                        font-weight: 600;
+                                        font-size: 18px;
+                                        line-height: 23px;
+                                        color: #FD3B5E;
+                                        margin-top: 50px;
+                                        margin-bottom: 39px;
+                                    }
+
+                                }
+
+                                &:first-child {
+
+                                    background-image: url("../img/pexels-picha-6211221.jpg");
+                                    background-repeat: no-repeat;
+                                    background-size: cover;
+                                    background-position-x: -1.925rem
+
+                                }
+                            }
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+
+    }
+}
+
+.main-content {
+
+    .page-container {
+
+        &.the-origgin-vision {
+
+            section {
+
+                @media screen and (max-width: 900px) {
+                    height: unset !important;
+                }
+
+                &.section-4 {
+                    margin-bottom: 8rem;
+                    background: rgba(238, 76, 103, 0.1);
+                    height: 491px;
+                    box-sizing: border-box;
+
+                    .sub-header {
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 38px;
+                        color: #EE4C67 !important;
+                        padding-top: 109px;
+                    }
+    
+                    .grid-3 {
+            
+                        grid-template-columns: repeat(3, 1fr);
+                        display: grid;
+                        margin-top: 60px;
+                
+                        > div {
+                
+                            .header-md {
+                                margin-top: 1rem;
+                                padding: 0 4rem;
+                                text-align: center;
+                                line-height: 28px;
+                                color: #000 !important;
+                            }
+                
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                
+                            p {
+                                padding: 0 2rem;
+                                font-size: 18px;
+                                color: #000 !important;
+                                line-height: 23px;
+                                text-align: center;
+                                margin-top: 1.25rem;
+                            }
+                
+                        }
+                
+                    }
+
+                }
+
+                &.section-3 {
+                    background: #fff;
+                    text-align: center;
+                    height: 420px;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 23.44px;
+                        color: #000000 !important;
+
+                        @media screen and (max-width: 900px) {
+                            margin-bottom: 4rem !important;
+                        }
+
+                    }
+
+                    .sub-header {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 28px;
+                        color: #000000;
+                        margin-top: 133px;
+                        margin-bottom: 60px;
+                    }
+
+                }
+
+                &.section-2 {
+                    background: rgba(55, 159, 255, 0.1);
+                    text-align: center;
+                    height: 491px;
+
+                    p {
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 23.44px;
+                        color: #000000 !important;
+
+                        @media screen and (max-width: 900px) {
+                            margin-bottom: 4rem !important;
+                        }
+                        
+                    }
+
+                    .sub-header {
+                        font-weight: 500;
+                        font-size: 22px;
+                        line-height: 28px;
+                        color: #000000;
+                        margin-bottom: 60px;
+                    }
+
+                    .header-lg {
+                        color: #EE4C67;
+                        line-height: 38px;
+                        font-weight: 600;
+                        padding-top: 74px;
+                        margin-bottom: 62px;
+                    }
+
+                }
+
+                &.section-1 {
+
+                    .grid-2 {
+                        column-gap: 0px;
+                        grid-auto-rows: 491px;
+                       
+
+                        > div {
+                            margin-bottom: 0 !important; 
+                            height: 490px !important;
+
+                            &:last-child {
+                                background-color: #379FFF;
+                                justify-content: center;
+                                display: flex;
+
+                                @media screen and (max-width: 900px) {
+                                    margin-bottom: 0;
+                                    
+                                    img {
+                                        width: -webkit-fill-available;
+                                    }
+
+                                }
+                               
+                            }
+
+                            &:first-child {
+                                background-color: white;
+                                align-items: center;
+                                display: flex;
+                                flex-direction: column;
+
+                                ul {
+                                    li {
+                                        font-size: 18px;
+                                        line-height: 23px;
+                                        font-weight: 500;
+                                        color: #0047FF;
+                                        padding-bottom: 1.5rem;
+                                        
+                                        a {
+                                            font-family: $fontPoppins !important;
+                                        }
+                                    }
+                                }
+
+                                .sub-header {
+                                    font-size: 20px;
+                                    font-weight: 400;
+                                    line-height: 23.44px;
+                                    color: #000000;
+                                    margin-bottom: 42px;
+                                }
+
+                                .header-lg {
+                                    font-size: 32px;
+                                    line-height: 37.5px;
+                                    margin-top: 46px;
+                                    margin-bottom: 46px;
+                                    color: #000000;
+                                    padding-left: 6.5rem;
+                                }
+
+                            }
+                        }
+
+                    }
+
+                }
+
+                &.page-hero {
+
+                    height: 330px; 
+                    background: #EE4C67;
+                    // background-color: rgba(238, 76, 103, 0.5);
+                    text-align: center;
+
+                .sub-header {
+                    color: #fff;
+                    line-height: 42.19px;
+                    font-weight: 400;
+                    font-size: 34px !important;
+                    padding: 0 6rem;
+
+                    @media screen and (max-width: 900px) {
+                        padding: 0px;
+                        font-size: 20px !important;
+                    }
+                }
+
+                .page-hero-header {
+                        color: #fff;
+                        padding-top: 58px;
+                        margin-bottom: 58px;
+                        line-height: 56.25px;
+                        font-size: 46px;
+                        font-weight: 500;
+                }
+
+                }
+
+            }
+
+        }
+
+    }
+
+}

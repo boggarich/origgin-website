@@ -1,0 +1,191 @@
+.page-container.smarthome .section-3 {
+  margin-top: 8rem;
+  margin-bottom: 24rem;
+}
+.page-container.smarthome .section-3 .header-lg {
+  font-weight: 700;
+}
+.page-container.smarthome .section-3 .grid-3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.page-container.smarthome .section-3 .grid-3 > div:nth-child(2) a, .page-container.smarthome .section-3 .grid-3 > div:nth-child(3) a {
+  padding-left: 0px !important;
+}
+.page-container.smarthome .section-3 .grid-3 > div:nth-child(2) .sub-header, .page-container.smarthome .section-3 .grid-3 > div:nth-child(3) .sub-header {
+  padding-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+.page-container.smarthome .section-3 .grid-3 > div:nth-child(2) .header-sm, .page-container.smarthome .section-3 .grid-3 > div:nth-child(3) .header-sm {
+  color: #000;
+  margin-bottom: 1rem;
+}
+.page-container.smarthome .section-3 .grid-3 > div:first-child h2 {
+  width: 79%;
+  margin-bottom: 4rem;
+  line-height: 42.19px;
+  height: 126px;
+}
+.page-container.smarthome .section-2 .grid-3 {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.page-container.smarthome .section-2 .grid-3 > div:first-child h2 {
+  color: #000 !important;
+}
+.page-container.smarthome .section-2 .grid-3 > div:nth-child(2) p {
+  padding-right: 5rem;
+}
+@media screen and (min-width: 900px) {
+  .page-container.smarthome .section-2 .grid-3 > div:last-child {
+    align-content: flex-end;
+    padding-left: 5rem;
+  }
+}
+.page-container.smarthome .section-2 .grid-3 > div:last-child h2 {
+  margin-bottom: 0px !important;
+  line-height: 37.5px;
+}
+.page-container.smarthome .section-2 .grid-3 > div:last-child p {
+  color: #000 !important;
+  font-weight: 600;
+  line-height: normal;
+}
+.page-container.smarthome .section-2 .grid-3 p {
+  font-size: 18px;
+  line-height: 23px;
+}
+.page-container.smarthome .section-2 .grid-3 h2 {
+  margin-bottom: 6px !important;
+}
+.page-container.smarthome .section-2 .grid-2 {
+  margin-top: 6rem;
+  margin-bottom: 6.5rem;
+}
+.page-container.smarthome .section-2 .grid-2 + h2 {
+  margin-bottom: 1rem;
+}
+.page-container.smarthome .section-2 .grid-2 + h2 + h2 {
+  text-transform: uppercase;
+}
+.page-container.smarthome .section-2 .grid-2 + h2 + h2 + .grid-3 {
+  margin-top: 2rem;
+}
+.page-container.smarthome .section-2 .grid-2 + h2 + h2 + .grid-3 + .grid-3 {
+  margin-top: 3rem;
+}
+@media screen and (min-width: 900px) {
+  .page-container.smarthome .section-2 .grid-2 .sub-header {
+    padding-right: 12rem;
+  }
+}
+.page-container.smarthome .section-2 .grid-2 h6 {
+  margin-bottom: 1.5rem;
+}
+.page-container.smarthome .section-2 h2:nth-child(2) {
+  line-height: 42px;
+  font-weight: 500;
+  width: 56%;
+}
+.page-container.smarthome .section-2 h2:first-child {
+  margin-bottom: 2rem;
+}
+.page-container.smarthome .section-1 {
+  margin-top: 15rem;
+}
+.page-container.smarthome .section-1 .layout-width {
+  position: relative;
+  z-index: 2;
+}
+@media screen and (min-width: 991px) {
+  .page-container.smarthome .section-1 .layout-width .img-container-shadow {
+    position: absolute;
+  }
+}
+.page-container.smarthome .section-1 .rectangular-gradient-bg {
+  background: linear-gradient(89.92deg, #FF024A 19.77%, #26A3E9 98.54%);
+  transform: matrix(0.98, 0.23, -0.21, 0.97, 0, 0);
+  margin-top: 9.75rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(4) {
+  margin-top: 18rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(4) > div .img-container-shadow {
+  width: 506px;
+  height: 415px;
+  margin-top: 2rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(4) > div .sub-header:nth-child(2) {
+  margin-bottom: 2rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(4) > div h2 {
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(3) {
+  margin-top: 12rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(3) > div .img-container-shadow {
+  width: 506px;
+  height: 415px;
+  margin-top: 5rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(3) > div .img-container-shadow img {
+  position: absolute;
+  right: -69px;
+  top: -124px;
+  height: 447px;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(3) > div .sub-header:nth-child(2) {
+  margin-bottom: 2rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(3) > div h2 {
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(2) {
+  margin-top: 10rem;
+  padding-top: 3rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(2) > div .img-container-shadow {
+  width: 506px;
+  height: 415px;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(2) > div .sub-header {
+  width: 95%;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(2) > div .sub-header:nth-child(2) {
+  margin-bottom: 2rem;
+}
+.page-container.smarthome .section-1 .grid-2:nth-child(2) > div h2 {
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  width: 95%;
+}
+.page-container.smarthome .section-1 .grid-2:first-child > div .sub-header {
+  width: 95%;
+}
+.page-container.smarthome .section-1 .grid-2:first-child > div .img-container-shadow {
+  width: 506px;
+  height: 415px;
+  margin-top: -4rem;
+}
+.page-container.smarthome .section-1 .grid-2:first-child > div h2 {
+  margin-bottom: 5rem;
+  width: 100%;
+}
+.page-container.smarthome .section-1 .sub-header {
+  font-weight: 500 !important;
+}
+.page-container.smarthome .page-hero .page-hero-bg {
+  background: linear-gradient(89.92deg, #FF024A 5.75%, #26A3E9 93.71%);
+  transform: matrix(-0.93, 0.33, -0.36, -0.94, 0, 0);
+  z-index: 1;
+  position: relative;
+  margin-top: -7.25rem;
+  margin-left: -11.5rem !important;
+  width: calc(100vw + 22rem) !important;
+}
+.page-container.smarthome .page-hero .img-container-shadow {
+  width: 640px;
+  height: 523px;
+}

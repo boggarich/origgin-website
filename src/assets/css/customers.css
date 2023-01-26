@@ -1,0 +1,71 @@
+.main-content.customers {
+  margin-top: 0px;
+}
+.main-content.customers section.section-2 {
+  margin-top: 5rem;
+  margin-bottom: 35rem;
+}
+.main-content.customers section.section-2 .layout-width .grid-3 {
+  row-gap: 32px;
+}
+.main-content.customers section.section-2 .layout-width .img-container-shadow {
+  overflow: hidden;
+  box-shadow: none !important;
+}
+.main-content.customers section.section-2 .layout-width .img-container-shadow .hero-img {
+  background-color: #000 !important;
+  background-image: url("../img/White-Hilco-Global.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 245px;
+}
+.main-content.customers section.section-2 .layout-width .img-container-shadow .container-body {
+  padding: 2rem 15px;
+  background-color: #F7F9FA;
+}
+.main-content.customers section.section-2 .layout-width .img-container-shadow h4 {
+  color: #000 !important;
+  font-weight: 400;
+}
+.main-content.customers section.section-1 .layout-width {
+  padding: 2rem 2.5rem;
+  background: #F7F9FA;
+}
+.main-content.customers section.section-1 .layout-width .grid-4 {
+  column-gap: 32px !important;
+}
+.main-content.customers section.section-1 .layout-width .grid-4 > .select-has-inner-label:nth-child(4)::before {
+  content: "Company size";
+}
+.main-content.customers section.section-1 .layout-width .grid-4 > .select-has-inner-label:nth-child(3)::before {
+  content: "Product";
+}
+.main-content.customers section.section-1 .layout-width .grid-4 > .select-has-inner-label:nth-child(2)::before {
+  content: "Industry";
+}
+.main-content.customers section.section-1 .layout-width .grid-4 > .select-has-inner-label:nth-child(1)::before {
+  content: "Region";
+}
+.main-content.customers .page-hero .layout-width {
+  background: rgba(253, 59, 94, 0.5);
+  padding: 8rem 0 4rem;
+}
+.main-content.customers .page-hero .layout-width .btn-pill.me-5 {
+  margin-right: 2.5rem !important;
+}
+.main-content.customers .page-hero .layout-width .grid-3-row {
+  row-gap: 42px;
+}
+.main-content.customers .page-hero .layout-width .sub-header {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+.main-content.customers .page-hero .layout-width .page-hero-header {
+  font-size: 62px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: none;
+  margin-bottom: 0px;
+}
